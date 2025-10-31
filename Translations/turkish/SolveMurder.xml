@@ -1,65 +1,65 @@
 <SolveMurder>
 
     <General>
-        <Text>~r~Dedektif~s~ cinayet vakası için aranıyor</Text>
-        <Text>~g~Merkez~s~: Otoyoldaki ~y~Mount Chiliad Benzin İstasyonu~w~'na gidin, ~r~Dedektif~w~ gerekiyor.</Text>
+        <Text>Cinayet olayına ~r~Dedektif~s~ gerekli.</Text>
+        <Text>~g~Merkez~s~: Otoyoldaki ~y~Mount Chiliad Benzin İstasyonu'na~w~ sürün, ~r~Dedektif~w~ gerekli.</Text>
     </General>
 
     <Officer>
-        <Dialogue>Kullanarak ~b~memurla~w~ konuşun</Dialogue>
-        <Dialogue>~b~Memur~s~: Merhaba Dedektif! Burada olmanıza sevindim!</Dialogue>
-        <Dialogue>~b~Memur~s~: Sağımda bir ceset ve iki olası şüpheli var.</Dialogue>
-        <Dialogue>~b~Memur~s~: Lütfen sağdaki ~r~suç mahaline~w~ gidin ve ~r~inceleme yapın~s~, bir şeyler bulabilecek misiniz bakın.</Dialogue>
+        <Dialogue>~b~Polis Memuru'nun~w~ yanına git ve onunla konuş. </Dialogue>
+        <Dialogue>~b~Polis Memuru~s~: Merhaba Dedektif! Burada olmana sevindim.</Dialogue>
+        <Dialogue>~b~Polis Memuru~s~: Sağımda ölü biri ve iki olası şüphelimiz var.</Dialogue>
+        <Dialogue>~b~Polis Memuru~s~: Lütfen sağ tarafımdaki ~r~suç mahaline~w~ gidin ve ~r~araştırın~s~, Bakalım bir şeyler bulabilecek misiniz.</Dialogue>
     </Officer>
 
     <Evidence>
-        <Text>~y~Siz~s~: ~r~Yeni boş bir içki şişesi~s~, acaba kurbana mı ait...</Text>
-        <Text>~y~Siz~s~: Yaralar, boyun, karın ve sırtta ~o~çok sayıda bıçak yarası~s~ gibi görünüyor.</Text>
-        <Text>~y~Siz~s~: Biraz ~g~cips~w~ mi? Birisi ~g~yakın zamanda~w~ bunları ~g~yemiş~w~...</Text>
-        <Text>İnceleme bitti! Bir ~r~şüpheliye~w~ gidin ve onunla konuşun</Text>
+        <Text>~y~Sen~s~: ~r~Taze boş bir içki şişesi... Acaba mağdura mı ait?</Text>
+        <Text>~y~Sen~s~: Yaralar boyun, karın ve sırtta ~o~birden fazla bıçak yarası~s~ gibi görünüyor</Text>
+        <Text>~y~Sen~s~: Biraz ~g~cips~w~? ~g~Son zamanlarda~w~ birisi bunları ~g~yemiş~w~...</Text>
+        <Text>Araştırma tamamlandı! ~r~şüpheli'ye~w~ gidin ve onunla konuşun. </Text>
     </Evidence>
 
     <Suspect1>
-        <Dialogue>Kullanarak ~o~şüpheliyle~w~ konuşun</Dialogue>
-        <Dialogue>~y~Siz~s~: Merhaba, bu davanın dedektifiyim, size birkaç sorum olacak.</Dialogue>
-        <Dialogue>~o~Ayla Öztürk~s~: Çok ~r~gerginim~s~. Bu olayla bir ilgim yok.</Dialogue>
-        <Dialogue>~y~Siz~s~: Endişelenmeyin, iyisiniz. Ne tür alkol içersiniz?</Dialogue>
-        <Dialogue>~o~Ayla Öztürk~s~: Neredeyse hiç alkol içmem... eğer içersem de, belki bir kadeh kırmızı şarap.</Dialogue>
-        <Dialogue>~y~Siz~s~: Bazen ~r~cips~w~ yer misiniz?</Dialogue>
-        <Dialogue>~o~Ayla Öztürk~s~: ~g~Hayır~w~, sağlıklı bir yaşam tarzım var, çok spor yaparım.</Dialogue>
-        <Dialogue>~y~Siz~s~: Bu kadar, zaman ayırdığınız için teşekkürler.</Dialogue>
+        <Dialogue>~o~Şüpheliyle~w~ konuşun  </Dialogue>
+        <Dialogue>~y~Sen~s~: Merhaba, ben bu cinayetin dedektifiyim, size birkaç sorum olacak.</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Çok ~r~gerginim~s~. Benim bu konuyla hiçbir ilgim yok.</Dialogue>
+        <Dialogue>~y~Sen~s~: Merak etme, sakinleş. Ne tür alkol içiyorsun?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: Neredeyse hiç alkol içmem... içersem de sadece bir kadeh kırmızı şarap içerim.</Dialogue>
+        <Dialogue>~y~You~s~: Bazen ~r~cips~w~ yer misin?</Dialogue>
+        <Dialogue>~o~Ayla May~s~: ~g~Hayır~w~, sağlıklı bir yaşam tarzım var, çok fazla spor yapıyorum ayrıca.</Dialogue>
+        <Dialogue>~y~You~s~: Hepsi bu kadardı. Zaman ayırdığınız için teşekkürler.</Dialogue>
     </Suspect1>
 
     <Suspect2>
-        <Dialogue>Kullanarak ~o~şüpheliyle~w~ konuşun</Dialogue>
-        <Dialogue>~y~Siz~s~: Merhaba, ben bu davanın ~r~dedektifiyim~s~, size birkaç soru sorabilir miyim?</Dialogue>
-        <Dialogue>~r~Burak Tatlıcı~s~: Selam! Evet, çekinmeeeee *güler*</Dialogue>
-        <Dialogue>~y~Siz~s~: ~r~Sarhoş~w~ görünüyorsunuz, ne kadar içtiniz?!</Dialogue>
-        <Dialogue>~r~Burak Tatlıcı~s~: Hiçbir şey içmedim, bir damla bile değiiiil...</Dialogue>
-        <Dialogue>~y~Siz~s~: Lütfen bunu ciddiye alın. Ne iş yapıyorsunuz?</Dialogue>
-        <Dialogue>~r~Burak Tatlıcı~s~: Elbette, ben bir ~o~avcıyım~w~, buraya çok uzak olmayan bir ormanım var.</Dialogue>
-        <Dialogue>~y~Siz~s~: Tamam, benim kadar sık ~r~cips~w~ yer misiniz?</Dialogue>
-        <Dialogue>~r~Burak Tatlıcı~s~: Evet, ~r~cipsi ÇOK SEVERİM~w~, ben hep yerim, ~y~az önce bir paket yedim...</Dialogue>
-        <Dialogue>~y~Siz~s~: Sorgumuz bitti, nasıl devam edeceğimizi size bildireceğim.</Dialogue>
+        <Dialogue>~o~Şüpheliyle~w~ konuşun  </Dialogue>
+        <Dialogue>~y~Sen~s~: Merhaba, ben bu cinayetin dedektifiyim, size birkaç soru sorabilir miyim?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: N’aber la? Hahaaa, çekinme hadi... *güler*</Dialogue>
+        <Dialogue>~y~Sen~s~: Sarhoş görünüyorsun, ne kadar içtin?!</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Hiçbir şey içmedim, bir damla bile...</Dialogue>
+        <Dialogue>~y~Sen~s~: Lütfen bu olayı ciddiye alın. Mesleğiniz nedir?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Elbette, ben bir ~o~avcı~w~'yım, buraya çok uzak olmayan bir ormanım var..</Dialogue>
+        <Dialogue>~y~Sen~s~: Anladım, sen de benim kadar sık cips yiyor musun?</Dialogue>
+        <Dialogue>~r~Jameson Fisher~s~: Eveeeett, ~r~Cipsleri severim~w~, her zaman yerim, ~y~ Az önce bir paket yedim...</Dialogue>
+        <Dialogue>~y~You~s~: Sorgulamayı bitirdik, nasıl devam edeceğimizi size bildireceğim.</Dialogue>
     </Suspect2>
 
     <Officer2>
-        <Dialogue>Tekrar ~b~Memurla~w~ konuşun</Dialogue>
-        <Dialogue>~b~Memur~w~: Peki, delillere ve konuşmalara dayanarak ~r~katilin~w~ kim olduğunu bulabildiniz mi?</Dialogue>
-        <Dialogue>~y~Siz~s~: Evet, bence katil... ~o~[1] Ayla Öztürk  ~r~[2] Burak Tatlıcı</Dialogue>
-        <Dialogue>~r~Katili~s~ seçmek için ~o~'1'~w~ veya ~r~'2'~w~ tuşuna basın.</Dialogue>
-        <Dialogue>~y~Siz~s~: ...~o~Ayla Öztürk~w~!</Dialogue>
-        <Dialogue>~y~Siz~s~: ...~r~Burak Tatlıcı~w~!</Dialogue>
-        <Dialogue>~b~Memur~w~: Pekala, devam edin ve şüpheliyi tutuklayın!</Dialogue>
+        <Dialogue>Git ~b~Polis memuru~w~ ile tekrar konuş. </Dialogue>
+        <Dialogue>~b~Officer~w~: Kanıtlara ve konuşmalara dayanarak ~r~katilin~w~ kim olduğunu bulabildin mi?</Dialogue>
+        <Dialogue>~y~You~s~: Evet, sanırım katil... ~o~[1] Ayla May  ~r~[2] Jameson Fisher</Dialogue>
+        <Dialogue>~r~Katili~r~ seçmek için ~o~'1' ~w~veya ~r~'2' ~w~tuşlarına basın.</Dialogue>
+        <Dialogue>~y~Sen~s~: ...~o~Ayla May~w~!</Dialogue>
+        <Dialogue>~y~Sen~s~: ...~r~Jameson Fisher~w~!</Dialogue>
+        <Dialogue>~b~Polis Memuru~w~: Pekâlâ, git ve şüpheliyi tutukla!</Dialogue>
     </Officer2>
 
     <Arrest>
-        <Text>Ah hayır, ne yazık ki ~r~masum~w~ birini tutukladınız! ~o~Kod 4~w~</Text>
-        <Text>Soruşturma ~g~Kod 4~w~, Dava ~g~çözüldü~w~, ~g~doğru şüpheli tutuklandı!</Text>
-        <Text>~y~Kurbanı~w~ almak için bir ~b~Adli Tıp Görevlisi~w~ çağırın ve ardından ~r~şüpheliyi~w~ ~o~hapishaneye~w~ nakledin.</Text>
-        <Text>~g~Ayla Öztürk ~r~öldü.~s~ Bunun gerekli olduğundan emin misiniz? ~g~Kod 4~s~</Text>
-        <Text>~b~Burak Tatlıcı ~r~öldü,~s~ umarım iyi bir avukatınız vardır!? ~g~Kod 4~s~</Text>
-        <Text>~b~Memur~s~ ~r~öldü~s~, bu iyi bir son değil!? ~g~Kod 4~s~</Text>
+        <Text>Olamaz, ne yazık ki ~r~masum~w~ bir insanı tutukladınız! ~o~Kod 4~w~</Text>
+        <Text>~g~Kod 4~w~, Olay ~g~çözüldü~w~, ~g~doğru şüpheli tutuklandı!</Text>
+        <Text>~y~Mağdur~w~ için ~b~Cenaze arabası~w~ çağırın ve ~r~şüpheliyi~w~ ~o~hapise~w~ tıkayın.</Text>
+        <Text>~g~Ayla May ~r~Öldü.~s~ Cidden bunun gerekli olduğunu düşündün mü? ~g~Kod 4~s~</Text>
+        <Text>~b~Jameson Fisher ~r~Öldü,~s~ Umarım iyi bir avukatın vardır!? ~g~Kod 4~s~</Text>
+        <Text>~b~Polis Memuru~s~ ~r~öldü~s~, Bu iyi bir son değil!? ~g~Kod 4~s~</Text>
     </Arrest>
 
 </SolveMurder>
