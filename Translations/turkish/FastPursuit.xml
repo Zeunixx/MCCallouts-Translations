@@ -1,12 +1,12 @@
 <FastPursuit>
 
     <General>
-        <Text>Hızlı Takip</Text>
-        <Text>Kaçan araç için memur gerekli</Text>
-        <Text>~r~Şüpheliyi~w~ bul ve takip et.</Text>
-        <Text>Şüpheli ~r~ölü~w~. ~g~Kod 4~w~'üz.</Text>
-        <Text>Şüpheli ~b~gözaltında~w~. ~g~Kod 4~w~'üz.</Text>
-        <Text>~g~Kod 4~w~'üz.</Text>
+        <Text>Yüksek hızlı kovalamaca</Text>
+        <Text>Kaçan araç için destek ekip gerekiyor.</Text>
+        <Text>~r~Şüphelinin~w~ yerini belirleyin ve takip edin.</Text>
+        <Text>Şüpheli ~r~öldü~w~. ~g~Kod 4~w~.</Text>
+        <Text>Şüpheli ~b~gözaltında~w~. ~g~Kod 4~w~.</Text>
+        <Text>~g~Kod 4~w~.</Text>
     </General>
 
 </FastPursuit>
