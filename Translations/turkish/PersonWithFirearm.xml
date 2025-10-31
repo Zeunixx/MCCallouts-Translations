@@ -1,34 +1,35 @@
 <PersonWithFirearm>
 
     <General>
-        <Text>Ateşli Silahlı Kişi</Text>
-        <Text>Bir kişinin ateşli silah taşıdığından şüpheleniliyor. Kendisiyle irtibat kurun.</Text>
-        <Text>~r~Şüpheliye~w~ yaklaşın ve ~y~konuşmaya~w~ başlayın.</Text>
-        <Text>Şüpheliyi durdurmak ve onunla konuşmak için {0} tuşuna basın.</Text>
-        <Text>~r~Şüpheliyle~w~ daha fazla diyalog yok.</Text>
+        <Text>Silahlı şahıs</Text>
+        <Text>Bir kişinin ateşli silah taşıdığından şüpheleniliyor. Şüpheliyi sorgulayın.</Text>
+        <Text>~r~Şüpheliye~w~ yaklaşın ve ~y~diyaloğa~w~ girin.</Text>
+        <Text>Şüpheliyi durdurmak ve konuşmak için {0} tuşuna basın.</Text>
+        <Text>~r~Şüpheli~w~ ile daha fazla diyalog kurulamaz.</Text>
     </General> 
 
     <Conversation>
-        <Dialogue>~b~Siz:~w~ Merhaba, bir dakika konuşabilir miyiz?</Dialogue>
-        <Dialogue>~r~Şüpheli:~w~ Hayır, sen kimsin?! Ne istiyorsun!</Dialogue>
-        <Dialogue>~b~Siz:~w~ Sadece konuşmak istiyorum. Sanırım üzerinde bir silah olabilir.</Dialogue>
-        <Dialogue>~r~Şüpheli:~w~ Bu doğru değil! Yanlış kişiyi buldunuz.</Dialogue>
-        <Dialogue>~b~Siz:~w~ Lütfen bizimle işbirliği yapın, böylece her şeyi çözebiliriz.</Dialogue>
+        <Dialogue>~b~Sen:~w~ Merhaba, biraz konuşmamızın sakıncası var mı?</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ Hayır, sen kimsin?! Ne istiyorsun benden!</Dialogue>
+        <Dialogue>~b~Sen:~w~ Sadece biraz konuşmak istiyorum. Sanırım üzerinde bir silah var.</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ Bu doğru değil! Yanlış kişiyle konuşuyorsun.</Dialogue>
+        <Dialogue>~b~Sen:~w~ İşleri yoluna koyabilmemiz için lütfen bizimle işbirliği yapın.</Dialogue>
     </Conversation>
 
     <Shooting>
-        <Dialogue>~r~Şüpheli:~w~ HAYIR! ASLA!</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ HAYIR! ASLA!!</Dialogue>
     </Shooting>
 
     <Surrender>  
-        <Dialogue>~r~Şüpheli:~w~ Tamam, üzgünüm... Ne yapmam gerekiyor?</Dialogue>
-        <Dialogue>~b~Siz:~w~ Lütfen ellerinizi havaya kaldırın, böylece sizi tutuklayabilirim.</Dialogue>
-        <Dialogue>~r~Şüpheli:~w~ Evet komiserim... üzgünüm...</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ Tamam, Özür dilerim... ne yapmam lazım?</Dialogue>
+        <Dialogue>~b~Sen:~w~ Lütfen ellerini havaya kaldırır mısın? Böylece seni tutuklayabilirim.</Dialogue>
+        <Dialogue>~r~Şüpheli:~w~ Peki memur bey... üzgünüm...</Dialogue>
     </Surrender>
 
     <End>
-        <Text>Şüpheli Gözaltında, ~g~Kod 4~w~</Text>
+        <Text>Şüpheli gözaltına alındı, ~g~Kod 4~w~</Text>
         <Text>~g~Kod 4~w~</Text>
         <Text>~r~Şüpheli öldü.~g~ Kod 4</Text>
     </End>
+
 </PersonWithFirearm>
