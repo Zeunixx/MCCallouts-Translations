@@ -2,10 +2,10 @@
 
     <General>
         <Text>Çatışma</Text>
-        <Text>2 kişi karşılıklı tabanca ile çatışıyor</Text>
-        <Text>Olay yerine intikal edin ~b~Kod 3~s~, 2 şüpheli, ~r~dikkatli~s~ olun, ~r~ateş~s~ ~r~edildi~s~!</Text>
-        <Text>~y~Siz~s~: ~p~Silahlarınızı ~r~bırakın~s~, ~b~Polis~s~!!!</Text>
-        <Text>Takviye ekip çağırın!</Text>
+        <Text>2 kişi birbirlerine tabancayla ateş ediyor.</Text>
+        <Text>Olay yerine gidin ~b~Kod 3~s~, 2 tetikçi, ~r~dikkat~s~, ~r~ateş edildi~s~!</Text>
+        <Text>~y~Sen~s~: ~p~Silahlarınızı bırakın~, ~Polis~!!!</Text>
+        <Text>Destek çağırın!</Text>
         <Text></Text>
         <Text></Text>
     </General>
@@ -14,37 +14,37 @@
     <Outcomes>
 
         <StillShooting>
-            <Text>~y~Siz~s~: Sizi dinlemiyorlar, ~r~zor kullanın~s~ veya ~o~doğru olduğuna inandığınız gibi~s~ ~o~hareket edin~s~!</Text>
+            <Text>~y~Sen~s~: Dinlemiyor gibiler, ~r~güç kullanın~s~ ya da ~o~doğru olduğuna inandığınız şekilde~s~ ~o~hareket edin~s~!</Text>
         </StillShooting>
 
         <Surrender>
-            <Text>~r~İlk Şüpheli~s~: Ateş etmeyin, ~g~teslim oluyorum~s~!</Text>
+            <Text>~r~İlk Şüpheli~s~: Ateş etmeyin, ~g~pes ediyorum~s~!</Text>
             <Text>~p~İkinci Şüpheli~s~: Ben de ~g~teslim oluyorum~s~!</Text>
         </Surrender>
 
         <ShootAtPlayer>
             <Text>Polise ateş açıldı!</Text>
-            <Text>~p~Şüpheli~s~: Pes ediyorum, beni hapse atın, benden bu kadar.</Text>
+            <Text>~p~Şüpheli~s~: Pes ediyorum, beni hapse atın, teslim oluyorum.</Text>
         </ShootAtPlayer>
 
     </Outcomes>
 
     <Arrest>
         <Text>Merkez, bir şüpheli ~y~tutuklandı~w~!</Text>
-        <Text>Merkez, bir şüpheli ~o~etkisiz hale getirildi~w~!</Text>
+        <Text>Merkez, bir şüpheli ~o~vuruldu~w~!</Text>
     </Arrest>
 
     <OnScene>
-        <Text>Her iki ~r~şüpheli~s~ için de birer ~b~nakil aracı~s~ çağırın.</Text>
-        <Text>Her ~r~şüpheli~s~ için ~b~nakil aracı~s~ ve birer ~p~adli tıp görevlisi~s~ çağırın.</Text>
-        <Text>Her iki ~r~şüpheli~s~ için de birer ~p~adli tıp görevlisi~s~ çağırın.</Text>
+        <Text>Her iki ~r~şüpheli~s~ için ~b~nakil aracı~s~ çağırın.</Text>
+        <Text>Her iki ~r~şüpheli~r~ için ~b~nakil~s~ ve bir ~p~adli tıp~s~ aracı çağırın.</Text>
+        <Text>Her iki ~r~şüpheli~s~ için ~p~adli tıp aracı~s~ çağırın.</Text>
     </OnScene>
 
     <End>
-        <Text>Bir ~r~GTA ped hatası~s~ oluştu, Görev ~g~sona erdi~s~</Text>
-        <Text>~y~Öldünüz~s~, Görev ~g~sona erdi~s~</Text>
-        <Text>Görev sona erdi</Text>
-        <Text>~g~Kod 4~s~, ~b~olay yerini boşaltın~s~ ve ~g~devriyeye~s~ geri dönün.</Text>
+        <Text>~r~GTA ped hatası~s~ oluştu, İhbar ~g~iptal~s~ edildi.</Text>
+        <Text>~y~Öldün~s~, İhbar ~g~iptal~s~ edildi.</Text>
+        <Text>İhbar iptal edildi.</Text>
+        <Text>~g~Kod 4~s~, ~b~Olay yerini~s~ ~b~temizleyin~s~ ve ~g~devriyeye~s~ geri dönün.</Text>
     </End>
 
 </Shooting>
