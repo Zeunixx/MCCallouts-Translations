@@ -1,24 +1,25 @@
 <WantedSuspectLocated>
 
     <General>
-        <Text>Aranan Şüphelinin Konumu Tespit Edildi</Text>
-        <Text>2 olası konumu kontrol et</Text>
-        <Text>Şüpheli Gözaltında, ~g~Kod 4~w~</Text>
+        <Text>Aranan şüphelinin muhtemel yeri</Text>
+        <Text>2 olası konuma göz atın</Text>
+        <Text>Şüpheli gözaltında, ~g~Kod 4~w~</Text>
     </General>
 
     <Scenes>
-        <Text>İlk bölgede ~r~şüpheliyi~w~ ara.</Text>
-        <Text>~g~Bölgede~w~ ~r~şüpheliyi~w~ ara.</Text>
-        <Text>Şüpheli bulunamadı, ~g~ikinci konuma~w~ geç.</Text>
-        <Text>Şimdi ikinci ~g~bölgede~w~ ~r~şüpheliyi~w~ ara. ~r~Orada olmak zorunda~w~!</Text>
-        <Text>~r~Şüpheli tanımı:{0}~y~Asyalı erkek~s~, zayıf,{0}siyah saçlı, 30 yaşında{0}üzerinde ~b~mavi~s~ bir tişört var</Text>
-        <Text>~r~Şüpheli tanımı:{0}~y~Siyahi kadın~s~, zayıf,{0}siyah saçlı, 30 yaşında,{0}üzerinde ~r~kırmızı bir tişört var</Text> <Text>~r~Şüpheli ~y~asyalı bir erkek~s~,{0}30'larının ortasında, zayıf ve siyah saçlı{0}üzerinde de ~b~mavi bir tişört var.</Text>
+        <Text>İlk bölgede ~r~şüpheli~w~'yi arayın.</Text>
+        <Text>g~Alan~w~ içinde ~r~şüpheli~w~'yi arayın.</Text>
+        <Text>Şüpheli bulunamadı, ~g~ikinci konuma~w~ ilerleyin.</Text>
+        <Text>Şimdi ikinci ~g~alan~w~da ~r~şüpheliyi~w~ arayın. Orada olmak zorunda!</Text>
+        <Text>~r~Şüphelinin~s~ görünümü:{0}~y~Asyalı erkek~s~, zayıf,{0}siyah saçlı, 30{0}~b~mavi~s~ bir tişört giyiyor.</Text>
+        <Text>~r~Şüphelinin görünümü:{0}~y~Siyahi kadın~s~, zayıf,{0}siyah saçlı, 30,{0}~r~kırmızı gömlek~r~ giyiyor.</Text> <!--{0} is a new line-->
+        <Text>~r~Şüpheli 30'lu yaşlarda, zayıf, siyah saçlı{0} ve ~b~mavi gömlekli~b~ ~y~Asyalı bir erkek~s~.</Text>
     </Scenes>
     
     <Outcomes>
-        <Dialogue>~r~Şüpheli~w~: Aman Tanrım, polis! Ateş etmeyin! Teslim oluyorum!</Dialogue>
-        <Dialogue>~r~Şüpheli~w~: Siktir, polisler! Siktir git, aptal domuzlar, ~o~kafanızı uçuracağım~w~!</Dialogue>
-        <Dialogue>~y~Siz~w~: Merkez, şüpheli bulundu, ~o~takip~w~ başlıyor!</Dialogue>
+        <Dialogue>~r~Suspect~w~: Aman Tanrım, polis! Ateş etmeyin! Teslim oluyorum!</Dialogue>
+        <Dialogue>~r~Suspect~w~: Hay anasını, polis! Siktirin gidin,~o~Kafanı~w~ ~o~uçuracağım~w~ senin, salak domuzlar!</Dialogue>
+        <Dialogue>~y~You~w~: Merkez, Şüpheli bulundu, Aktif ~o~kovalamaca~w~!</Dialogue>
     </Outcomes>
 
 </WantedSuspectLocated>
