@@ -2,19 +2,19 @@
 
 
     <General>
-        <Text>~b~Dedektif~s~ cinayet vakası için çağırıldı</Text>
-        <Text>Bir trafik durdurma işleminden sonra bir memur öldü</Text>
+        <Text>Cinayet olayına ~b~Dedektif~s~ gerekli.</Text>
+        <Text>Polis memuru trafik kontrolünde öldü.</Text>
     </General>
 
 
     <Approach>
-        <Text>Olay yerinde son durumu öğrenmek için ~HC_43~Dedektifle~s~ konuşun.</Text>
+        <Text>~HC_43~Dedektifle~s~ konuş ve olayı çöz.</Text>
     </Approach>
 
 
     <Characters>
         <Text>~HC_43~Dedektif~s~: </Text>
-        <Text>~y~Siz~s~: </Text>
+        <Text>~y~Sen~s~: </Text>
         <Text>~p~Laborant~s~: </Text>
         <Text>~g~Tanık~s~: </Text>
         <Text>~r~Şüpheli~s~: </Text>
@@ -22,104 +22,104 @@
 
 
     <TalkToDetective>
-        <Dialogue>Merhaba ~HC_43~Dedektif~s~! Ne kadar da büyük bir olay yeri burası! Neler oluyor?</Dialogue>
-        <Dialogue>Merhaba, evet kesinlikle! Ne yazık ki, bir trafik durdurma sırasında ~b~memurlarımızdan~s~ biri ~r~öldürüldü~s~...</Dialogue>
-        <Dialogue>Şu an kimin yaptığını bilmiyoruz, bu yüzden sizi aradık, oldukça tecrübelisiniz.</Dialogue>
-        <Dialogue>Otoyoldaki ~g~Mount Chiliad~s~ benzin istasyonu olayını duydum, onu iyi çözmüşsünüz!</Dialogue>
-        <Dialogue>Teşekkür ederim, efendim, bu vakada neler bulabileceğime bir bakayım.</Dialogue>
-        <Dialogue>Ah, evet, tabii ki, lütfen olay yerinde ~y~delil~s~ arayın, her şey yardımcı olabilir.</Dialogue>
-        <Dialogue>Delilin yanına geldiğinizde onu ~y~almak~s~ için ~y~{0}~s~ tuşuna basabilirsiniz. ~g~İyi şanslar~s~!</Dialogue>
-        <Dialogue>Kordon altına alınmış alana gidin ve delil arayın, delili almak için ~y~{1}~s~ tuşuna basın.</Dialogue>
-        <Dialogue>Olay yerini tekrar kontrol edin, hala ~o~eksik delilleriniz~s~ var!</Dialogue>
+        <Dialogue>Merhaba ~HC_43~dedektif~s~! Görünüşe bakılırsa burada büyük bir olayımız var! Olay nedir?</Dialogue>
+        <Dialogue>Merhaba, evet kesinlikle! Bir tane ~b~polisimiz trafik kontrolünde ~r~öldürüldü~s~...</Dialogue>
+        <Dialogue>Şimdilik bunu yapanın kim olduğuna dair bir bilgimiz yok, bu yüzden seni çağırdık, tecrübesi olan birini.</Dialogue>
+        <Dialogue>~g~Mount Chiliad'da ki~s~ benzin istasyonundaki olayı duydum, gayet iyi çözdün!</Dialogue>
+        <Dialogue>Teşekkürler efendim. Bu olayda neler bulabileceğime bakayım.</Dialogue>
+        <Dialogue>Haklısın, tabi. Lütfen ~y~kanıtlar~s~ için olay yerine göz at, her şey yardımcı olabilir.</Dialogue>
+        <Dialogue>Delilin yanına geldiğinde ~y~{0}~s~ tuşuna basarak ~y~kanıtı~s~ ~y~toplayabilirsin~s~. ~g~İyi şanslar~s~!</Dialogue>
+        <Dialogue>Kapatılmış alana git ve kanıt ara, ~y~kanıtı~y~ almak için ~y~{1}~s~ tuşuna bas.</Dialogue>
+        <Dialogue>Olay yerini tekrar kontrol et, hâlâ ~o~birkaç eksik~s~ var!</Dialogue>
     </TalkToDetective>
 
 
     <SearchForEvidence>
-        <Dialogue>İşte size küçük bir ~HC_211~yardım~s~.</Dialogue>
-        <Dialogue>Yakınlarda ~r~delil yok~s~.</Dialogue>
+        <Dialogue>İşte küçük bir ~HC_211~yardım~s~.</Dialogue>
+        <Dialogue>Yakında ~r~hiç kanıt~s~ yok.</Dialogue>
 
-        <Dialogue>Bir ~o~tüfek~s~, bu sadece şüpheliye veya memura ait olabilir.</Dialogue>
-        <Dialogue>Bu şüphelinin ~o~cüzdanı~s~ olmalı...</Dialogue>
+        <Dialogue>Bir ~o~tüfek~s~, bu ya şüphelininki ya da polisin olabilir.</Dialogue>
+        <Dialogue>Bu kesinlikle şüphelinin ~o~cüzdanı~s~ olmalı...</Dialogue>
         <Dialogue>Bir ~o~cep telefonu~s~, keşke şifresini bilseydim.</Dialogue>
-        <Dialogue>Bir ~o~bira~s~ mı? Birisi camdan dışarı atmış.</Dialogue>
+        <Dialogue>Bir ~o~bira~s~ mı? Biri camdan atmış olmalı.</Dialogue>
 
         <Dialogue>Bir ~o~bıçak~s~... üzerinde kan var.</Dialogue>
-        <Dialogue>Bir ~o~kimlik kartı~s~, en iyisi bunu Laboranta vereyim.</Dialogue>
-        <Dialogue>Bir ~o~USB bellek~s~, içinde neler olduğunu merak ediyorum.</Dialogue>
-        <Dialogue>Bir ~o~çanta~s~... Üzerine daha fazla parmak izi bırakmamalıyım.</Dialogue>
+        <Dialogue>Bir ~o~kimlik kartı~s~, en iyisi bunu laboranta vereyim.</Dialogue>
+        <Dialogue>Bir ~o~USB bellek~s~, içinde ne var merak ediyorum.</Dialogue>
+        <Dialogue>Bir ~o~çanta~s~... daha fazla parmak izi bırakmamalıyım.</Dialogue>
 
-        <Dialogue>Bir ~o~tabanca~s~... polise ait gibi görünmüyor.</Dialogue>
+        <Dialogue>Bir ~o~tabanca~s~... polis silahına benzemiyor.</Dialogue>
         <Dialogue>Bir ~o~plaka~s~... şüpheliye ait olabilir mi?</Dialogue>
-        <Dialogue>Bir ~o~ayakkabı~s~, herhangi bir polis teşkilatı tarafından verilmemiş.</Dialogue>
-        <Dialogue>Bir ~o~viski~s~... keşke bir yudum alabilseydim :p</Dialogue>
+        <Dialogue>Bir ~o~ayakkabı~s~, hiçbir polis departmanı tarafından verilmemiş.</Dialogue>
+        <Dialogue>Bir ~o~viski şişesi~s~... keşke bir yudum alabilsem :p</Dialogue>
 
-        <Dialogue>Bulunan ~g~deliller~s~ hakkında ~HC_43~Dedektifle~s~ konuşun.</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~ ile ~g~bulunan kanıtlar~s~ hakkında konuş.</Dialogue>
     </SearchForEvidence>
 
 
     <AgainTalkToDetective>
-        <Dialogue>Hey, işimize yarayacak bazı ilginç deliller buldum.</Dialogue>
-        <Dialogue>Harika, söyle bakalım!</Dialogue>
+        <Dialogue>Hey, işimize yarayacak bazı ilginç kanıtlar buldum.</Dialogue>
+        <Dialogue>Peki, anlat bakalım!</Dialogue>
         <Dialogue>{0} buldum.</Dialogue>
         <Dialogue>bir tüfek, bir cüzdan, bir telefon ve bir bira</Dialogue>
         <Dialogue>bir bıçak, bir kimlik, bir USB bellek ve bir çanta</Dialogue>
         <Dialogue>bir tabanca, bir plaka, bir ayakkabı ve bir viski şişesi</Dialogue>
-        <Dialogue>Oldukça eminim ki bu cinayet silahı.</Dialogue>
-        <Dialogue>Ayrıca şüpheli hakkında da bilgi edinebiliriz.</Dialogue>
-        <Dialogue>Harika! ~p~Laboranta~s~ gidin, o delilleri analiz edecek ve daha fazlasını bulacak!</Dialogue>
-        <Dialogue>~y~{1}~s~ tuşunu kullanarak ~p~Laborantla~s~ ~y~deliller~s~ hakkında konuşun.</Dialogue>
+        <Dialogue>Bunun cinayet silahı olduğuna eminim.</Dialogue>
+        <Dialogue>Ayrıca şüpheli hakkında bilgi edinebiliriz.</Dialogue>
+        <Dialogue>Elbette! ~p~Laboranta~s~ git, kanıtları analiz edip daha fazlasını öğrenecek.</Dialogue>
+        <Dialogue>~y~{1}~s~ tuşunu kullanarak ~p~Laborant~s~ ile ~y~kanıtlar~s~ hakkında konuş.</Dialogue>
     </AgainTalkToDetective>
 
 
     <TalkToLaborant>
-        <Dialogue>Merhaba, geldiğiniz için teşekkürler. Çok fazla delil buldum, kontrol eder misiniz?</Dialogue>
-        <Dialogue>Merhaba size de. Evet, tabii ki, bu benim işim c; Lütfen delilleri verin.</Dialogue>
+        <Dialogue>Merhaba beyefendi, geldiğiniz için teşekkürler. Birçok kanıt buldum, kontrol edebilir misiniz?</Dialogue>
+        <Dialogue>Size de merhaba. Elbette, bu benim işim c; Lütfen kanıtları verin.</Dialogue>
         <Dialogue>Teşekkürler, hemen kontrol edeceğim.</Dialogue>
-        <Dialogue>Konuşmak için ~y~{3}~s~ tuşuna tekrar basın</Dialogue>
-        <Dialogue>Pekala, delilleri kontrol ettim.</Dialogue>
+        <Dialogue>Tekrar konuşmak için ~y~{3}~s~ tuşuna basın.</Dialogue>
+        <Dialogue>Tamam, kanıtları inceledim.</Dialogue>
 
-        <Dialogue>~o~{3}~s~'ün sahibi ~o~{4}~s~!</Dialogue> 
-        <Dialogue>~o~{3}~s~'ün içinde ~o~{4}~s~'e ait bir ehliyet buldum.</Dialogue>
-        <Dialogue>~o~{3}~s~'ün üzerinde sahibinin adını buldum: ~o~{4}~s~!</Dialogue>
-        <Dialogue>~o~{3}~s~ zor okunuyordu, ama isim ~o~{4}~s~.</Dialogue>
-        <Dialogue>~o~{3}~s~'ün üzerinde ~o~{4}~s~'e ait dosyalar buldum.</Dialogue>
-        <Dialogue>~o~{3}~s~'teki seri numarası ~o~{4}~s~ olarak çıktı.</Dialogue>
-        <Dialogue>~o~{3}~s~'ün sahibi ~o~{4}~s~.</Dialogue>
+        <Dialogue>~o~{3}~s~'nin sahibi ~o~{4}~s~!</Dialogue> 
+        <Dialogue>~o~{3}~s~ içinde ~o~{4}~s~'ye ait bir sürücü belgesi buldum.</Dialogue>
+        <Dialogue>~o~{3}~s~ üzerinde sahibinin adı yazılı: ~o~{4}~s~!</Dialogue>
+        <Dialogue>~o~{3}~s~ neredeyse okunamıyordu ama isim ~o~{4}~s~.</Dialogue>
+        <Dialogue>~o~{3}~s~ içinde ~o~{4}~s~'ye ait dosyalar buldum.</Dialogue>
+        <Dialogue>~o~{3}~s~ üzerindeki seri numarası ~o~{4}~s~'ye ait.</Dialogue>
+        <Dialogue>~o~{3}~s~, ~o~{4}~s~ ile eşleşiyor.</Dialogue>
 
-        <Dialogue>Bu muhtemelen bizim şüphelimiz!</Dialogue>
-        <Dialogue>Bu bizim şüpheli olabilir!</Dialogue>
+        <Dialogue>Bu büyük ihtimalle bizim şüphelimiz!</Dialogue>
+        <Dialogue>Bu kişi bizim şüphelimiz olabilir!</Dialogue>
 
-        <Dialogue>Dedektif sizinle tekrar konuşmak istiyordu, lütfen tekrar ona gidin.</Dialogue>
-        <Dialogue>Tekrar ~HC_43~Dedektifle~s~ konuşun.</Dialogue>
+        <Dialogue>Dedektif seninle tekrar konuşmak istiyor, lütfen ona geri dön.</Dialogue>
+        <Dialogue>~HC_43~Dedektif~s~ ile tekrar konuş.</Dialogue>
     </TalkToLaborant>
 
 
     <TalkToDetectiveAnalyzedEvidence>
-        <Dialogue>Hey, yeni bir bilgi var mı?</Dialogue>
-        <Dialogue>Evet! ~o~{4}~s~ bizi doğru yöne götürüyor!</Dialogue>
-        <Dialogue>Mükemmel! Ayrıca orada bir ~g~tanık~s~ var, umarım bize daha fazla ayrıntı verebilir.</Dialogue>
-        <Dialogue>~y~{0}~s~ tuşunu kullanarak ~g~tanığın~s~ yanına gidin ve onunla konuşun.</Dialogue>
+        <Dialogue>Hey, yeni bir bilgiye ulaştık mı?</Dialogue>
+        <Dialogue>Evet! ~o~{4}~s~ bizi doğru yola götürüyor!</Dialogue>
+        <Dialogue>Mükemmel! Ayrıca şurada bir ~g~tanık~s~ var, umarım bize daha fazla bilgi verir.</Dialogue>
+        <Dialogue>~g~Tanık~s~ ile konuşmak için ~y~{0}~s~ tuşunu kullan.</Dialogue>
     </TalkToDetectiveAnalyzedEvidence>
 
 
     <TalkToWitness>
 
         <Vehicle>
-            <Dialogue>Merhaba hanımefendi, bu vakada ~y~Dedektif~s~im, herhangi bir şeye tanık oldunuz mu?</Dialogue>
-            <Dialogue>Merhaba ~y~Dedektif~s~, benim adım {5} ve evet, bazı bilgilerim var.</Dialogue>
-            <Dialogue>Başlangıçta oradaki süpermarketlerde alışverişe gitmek istiyordum.</Dialogue>
-            <Dialogue>Tabii ki o yanıp sönen mavi ışıklı trafik durdurma işlemini fark ettim, aniden bir aracın telaşla uzaklaştığını gördüm.</Dialogue>
-            <Dialogue>Sürücüyü veya plakayı göremedim, ama model ~o~{0}~s~ idi.</Dialogue>
-            <Dialogue>Harika, bilgi için teşekkürler, bakalım merkez ne bulacak.</Dialogue>
+            <Dialogue>Merhaba hanımefendi, ben bu olayın ~y~dedektifi~s~yim, bir şey gördünüz mü?</Dialogue>
+            <Dialogue>Merhaba ~y~Dedektif~s~, adım {5} ve evet, bazı bilgilerim var.</Dialogue>
+            <Dialogue>Aslında süpermarkete alışverişe gitmek istemiştim.</Dialogue>
+            <Dialogue>Siren ışıklarıyla durdurulan aracı fark ettim, o sırada bir aracın hızla uzaklaştığını gördüm.</Dialogue>
+            <Dialogue>Sürücüyü ya da plakayı göremedim ama model ~o~{0}~s~ idi.</Dialogue>
+            <Dialogue>Harika, bilgi için teşekkürler. Şimdi merkezden neler bulabileceğimizi öğrenelim.</Dialogue>
         </Vehicle>
 
         <House>
-            <Dialogue>Merhaba hanımefendi, bu vakada ~y~Dedektif~s~im, herhangi bir şeye tanık oldunuz mu?</Dialogue>
-            <Dialogue>Merhaba ~y~Dedektif~s~, benim adım {5} ve evet, bazı bilgilerim var.</Dialogue>
-            <Dialogue>Başlangıçta oradaki süpermarketlerde alışverişe gitmek istiyordum, ben buralıyım.</Dialogue>
-            <Dialogue>Tabii ki o yanıp sönen mavi ışıklı trafik durdurma işlemini fark ettim, aniden bir kişinin kaçtığını gördüm.</Dialogue>
-            <Dialogue>Sanırım o kişiyi tanıdım, şüpheli ~o~{4}~s~ olmalı.</Dialogue>
-            <Dialogue>Harika, bilgi için teşekkürler, bakalım merkez ne bulacak.</Dialogue>
+            <Dialogue>Merhaba hanımefendi, ben bu olayın ~y~dedektifi~s~yim, bir şey gördünüz mü?</Dialogue>
+            <Dialogue>Merhaba ~y~Dedektif~s~, adım {5} ve evet, bazı bilgilerim var.</Dialogue>
+            <Dialogue>Aslında alışverişe gidiyordum, ben bu civardayım.</Dialogue>
+            <Dialogue>Siren ışıklarıyla durdurulan aracı fark ettim, sonra birinin koşarak kaçtığını gördüm.</Dialogue>
+            <Dialogue>Sanırım kişiyi tanıdım, şüpheli ~o~{4}~s~ olmalı.</Dialogue>
+            <Dialogue>Harika, bilgi için teşekkürler. Şimdi merkezden bilgi almaya çalışalım.</Dialogue>
         </House>
         
     </TalkToWitness>
@@ -128,46 +128,46 @@
     <SearchForSuspect>
 
         <Vehicle>
-            <Dialogue>Merkez, cinayet şüphelisi bir araç için trafik kameralarını kontrol edebilir misiniz, model ~o~{0}~s~.</Dialogue>
+            <Dialogue>Merkez, cinayet şüphelisinin aracını trafik kameralarından kontrol edebilir misiniz, model: ~o~{0}~s~.</Dialogue>
             <Dialogue>Kontrol ediliyor...</Dialogue>
-            <Dialogue>Bir araçla eşleşme bulundu, GPS'inizde işaretlendi.</Dialogue>
+            <Dialogue>Araca dair bir eşleşme bulundu, GPS’ine işaretlendi.</Dialogue>
             
-            <Dialogue>~y~{1} aracında~s~ yeni bir ~r~ALPR Eşleşmesi~s~!</Dialogue>
+            <Dialogue>Yeni ~r~ALPR Eşleşmesi ~s~: ~y~Araç {1}!~s~</Dialogue>
         </Vehicle>
 
         <House>
-            <Dialogue>Merkez, rotayı şüphelinin evine ayarlayabilir misiniz?</Dialogue>
+            <Dialogue>Merkez, şüphelinin evine rota oluşturabilir misiniz?</Dialogue>
             <Dialogue>Kontrol ediliyor...</Dialogue>
-            <Dialogue>Ev bulundu, GPS'inizde işaretlendi.</Dialogue>
+            <Dialogue>Ev tespit edildi, GPS’ine işaretlendi.</Dialogue>
         </House>
 
     </SearchForSuspect>
 
 
     <InPursuit>
-        <Dialogue>Kahretsin, polisler!</Dialogue>
+        <Dialogue>Siktir, polis!</Dialogue>
     </InPursuit>
 
 
     <QuestioningSuspect>
-        <Dialogue>Hazır olduğunuzda, ~r~şüpheliyle~s~ eylemleri hakkında yüzleşin, konuşmak için ~y~{0}~s~ tuşunu kullanın.</Dialogue>
-        <Dialogue>Hukuk adına, bir ~b~polis memurunun~s~ ~r~cinayetinden~s~ tutuklusunuz!</Dialogue>
-        <Dialogue>Miranda haklarınızı okuyacağım... * miranda haklarını okur *</Dialogue>
+        <Dialogue>Hazır olduğunda, ~r~şüpheliyle yüzleş~s~ ve ~y~{0}~s~ tuşunu kullanarak konuş.</Dialogue>
+        <Dialogue>Bir ~b~polis memurunun~s~ ~r~cinayetinden~s~ dolayı tutuklusunuz!</Dialogue>
+        <Dialogue>Sana Miranda haklarını okuyacağım...  * Miranda haklarını okur *</Dialogue>
         <Dialogue>Neden kaçtın?</Dialogue>
-        <Dialogue>Efendim, yaptığım şey için çok üzgünüm, berbat ettim.</Dialogue>
-        <Dialogue>Sadece korktuğum için kaçtım, hepsi bu.</Dialogue>
-        <Dialogue>Bir polis memurunu öldürdünüz!</Dialogue>
-        <Dialogue>Ne? O öldü mü? Ben sadece... Ben sadece hapse girmek istemedim, ama onu öldürmek de istememiştim...</Dialogue>
-        <Dialogue>Ona ateş ettin...</Dialogue>
-        <Dialogue>Sadece onu korkutmak istedim, böylece kaçıp özgür kalabilirdim.</Dialogue>
-        <Dialogue>Hapse gireceksiniz ve muhtemelen çok yakında çıkamayacaksınız...</Dialogue>
-        <Dialogue>~r~Şüpheliyi~s~ ~o~hapishaneye~s~ nakledin.</Dialogue>
+        <Dialogue>Beyefendi, yaptığım şey için çok üzgünüm, mahvettim.</Dialogue>
+        <Dialogue>Korktum ve kaçtım, hepsi bu.</Dialogue>
+        <Dialogue>Sen bir polisi öldürdün!</Dialogue>
+        <Dialogue>Ne? O mu öldü? Ben... ben sadece hapse girmek istemedim, onu öldürmek istememiştim...</Dialogue>
+        <Dialogue>Ona ateş ettin... </Dialogue>
+        <Dialogue>Sadece onu korkutup kaçmak ve özgür kalmak istedim.</Dialogue>
+        <Dialogue>Hapishaneye gönderileceksin ve orada çürüyeceksin...</Dialogue>
+        <Dialogue>~r~Şüpheliyi~s~ ~o~hapishaneye~s~ götür.</Dialogue>
     </QuestioningSuspect>
 
 
     <End>
-        <Text>Görevi sonlandırmak için istediğiniz zaman ~y~End~s~ tuşuna basın.</Text>
-        <Text>Durum ~g~Code 4.~s~</Text>
+        <Text>Çağrıyı bitirmek için istediğin zaman ~y~End~s~ tuşuna bas.</Text>
+        <Text>Durum ~g~Code 4~s~.</Text>
     </End>
 
 

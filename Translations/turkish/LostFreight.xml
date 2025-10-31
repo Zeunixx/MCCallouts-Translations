@@ -1,58 +1,66 @@
 <LostFreight>
 
-<General>
-        <Text>Kaybolan Yük</Text>
-        <Text>Arayan kişi, otoyolda yük kaybı olduğunu bildirdi.</Text>
-        <Text><![CDATA[Arayan kişiye gidip iletişime geçin.]]></Text>
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+
+    <General>
+        <Text>Kayıp yük</Text>
+        <Text>Arayan kişi otoyolda kayıp mallar olduğunu bildirdi.</Text>
+        <Text><![CDATA[İhbar eden kişinin yanına git & olayı öğren.]]></Text>
     </General>
 
 
     <DisplayHelp>
-        <Text>Arayan kişiyle konuşmak için </Text>
-        <Text><![CDATA[~y~Bölgeyi~s~ arayın & engelleri temizlemek için ]]></Text>
-        <Text>~b~Memurla~s~ konuşmak için </Text>
-        <Text>Başka iletişim yok.</Text>
-        <Text>İşte küçük bir ~g~ipucu.</Text>
+        <Text>İhbar eden kişiyle konuşmak için şu tuşa basın </Text>
+        <Text><![CDATA[~y~Bölgeyi~s~ arayın & engelleri şu tuşla temizleyin ]]></Text>
+        <Text>~b~Polis Memuruyla~s~ şu tuşla konuşun </Text>
+        <Text>Başka diyalog yok.</Text>
+        <Text>İşte küçük bir ~g~yardım.</Text>
     </DisplayHelp>
 
 
     <Pickup>
-        <Text>Yakınlarda ~r~nesne yok~s~.</Text>
-        <Text>~r~Nesne~s~ kaldırıldı!</Text>
+        <Text>Yakında ~r~obje yok~s~.</Text>
+        <Text>~r~Obje~s~ kaldırıldı!</Text>
     </Pickup>
 
 
     <Conversation>
-        <Dialogue>~y~Siz~s~: Merhaba, kaybolan yük için siz mi aramıştınız?</Dialogue>
-        <Dialogue><![CDATA[~b~Arayan~s~: Merhaba, evet, römorkun kapısı açılmış & şimdi eşyalar otoyola saçıldı!]]></Dialogue>
-        <Dialogue>~y~Siz~s~: Bu tehlikeli, ne taşıyordunuz?</Dialogue>
-        <Dialogue>~b~Arayan~s~: Kulüp binamızı boşalttığımız için her türlü ~b~tenis malzemesi~s~.</Dialogue>
-        <Dialogue>~b~Arayan~s~: Bir sürü ~b~ofis eşyası~s~, dolaplar, ekranlar, sandalyeler, hoparlörler...</Dialogue>
-        <Dialogue>~b~Arayan~s~: Şirket yeri değiştirdiği için bir sürü ~b~mutfak eşyası~s~, tencere, çatal-bıçak, tabak vb.</Dialogue>
-        <Dialogue>~y~Siz~s~: Anladım, nereye gidiyordunuz?</Dialogue>
-        <Dialogue>~b~Arayan~s~: Sadece ~y~bu yöne~s~ doğru gidiyordum, o yüzden otoyolun sadece o tarafını arayın.</Dialogue>
-        <Dialogue>~y~Siz~s~: Merkez, son otoyol girişini bloke edin, yolda parçalar var!</Dialogue>
-        <Dialogue>Anlaşıldı, trafik durdurulacak, ekipler yolda.</Dialogue>
+        <Dialogue>~y~Sen~s~: Merhaba, kayıp mal için mi aradınız?</Dialogue>
+        <Dialogue><![CDATA[~b~Mağdur~s~: Merhaba, evet, römorkun kapısı açıldı ve şimdi mallar otoyola düştü!]]></Dialogue>
+        <Dialogue>~y~Sen~s~: Bu oldukça tehlikeli, ne taşıyordun?</Dialogue>
+        <Dialogue>~b~Mağdur~s~: Kulüp evimizi temizlediğimizden beri her türlü ~b~tenis eşyası~s~.</Dialogue>
+        <Dialogue>~b~Mağdur~s~: Bir sürü ~b~ofis eşyası~s~, dolaplar, ekranlar, sandalyeler, hoparlörler...</Dialogue>
+        <Dialogue>~b~Mağdur~s~: Şirketimizin taşınması nedeniyle bir sürü ~b~mutfak eşyası~s~, tencere, çatal bıçak takımı, tabak vs.</Dialogue>
+        <Dialogue>~y~Sen~s~: Anladım, nereye gidiyordunuz?</Dialogue>
+        <Dialogue>~b~Mağdur~s~: Sadece ~y~tek bir yöne~s~ gidiyordum, bu yüzden otoyolun o tarafını arayın.</Dialogue>
+        <Dialogue>~y~Sen~s~: Merkez, son otoyol girişini kapatın, eşyalar yolda!</Dialogue>
+        <Dialogue>Anlaşıldı, Trafik durdurulacak, ekipler yola çıkacak.</Dialogue>
     </Conversation>
 
 
     <Officer1>
-        <Dialogue>~b~Memur Blue~s~: Merhaba! Umarım harika bir gün geçiriyorsunuzdur!</Dialogue>
-        <Dialogue>~b~Memur Blue~s~: Yol temizlenene kadar trafiği durduracağım!</Dialogue>
-        <Dialogue>~b~Memur Blue~s~: İyi şanslar!</Dialogue>
+        <Dialogue>~b~Polis Memuru Blue~s~: Merhaba! Umarım gününüz harika geçiyordur!</Dialogue>
+        <Dialogue>~b~Polis Memuru Blue~s~: Parçalar toplanana kadar trafiği durduracağım!</Dialogue>
+        <Dialogue>~b~Polis Memuru Blue~s~: Kolay gelsin!</Dialogue>
     </Officer1>
 
 
     <Officer2>
-        <Dialogue>~b~Memur Night~s~: Merhaba, bu daha ne kadar sürecek?</Dialogue>
-        <Dialogue>~b~Memur Night~s~: Benim de yapacak başka işlerim var!</Dialogue>
-        <Dialogue>~b~Memur Night~s~: Bu kadar çok konuşmasaydın, çoktan gitmiştim!</Dialogue>
+        <Dialogue>~b~Polis Memuru Night~s~: Merhaba, bu daha ne kadar sürecek?</Dialogue>
+        <Dialogue>~b~Polis Memuru Night~s~: Yapmam gereken başka şeyler de var!</Dialogue>
+        <Dialogue>~b~Polis Memuru Night~s~: Eğer bu kadar çok konuşmasaydın, çoktan gitmiş olurdum!</Dialogue>
     </Officer2>
 
 
     <End>
-        <Text>~g~Kod 4'e~s~ geçtik</Text>
-        <Text>Bulunan eşya sayısı:</Text> <Text>/~g~4</Text> <Text>~r~Teşekkürler, ~g~trafik akışı tekrar sağlanabilir!</Text>
+        <Text>~g~Kod 4~s~</Text>
+        <Text>Eşya kaldırıldı:</Text> <!--Bulmanız gereken 4 eşya var, bu mesajda kaç tane bulduğunuzu görebilirsiniz.-->
+        <Text>/~g~4</Text> <!--Bu, 4 eşyadan X tane bulunduğu anlamına gelir -> X/4 eşya bulundu-->
+        <Text>~r~Teşekkürler, ~g~trafik tekrar akabilir!</Text>
     </End>
 
 

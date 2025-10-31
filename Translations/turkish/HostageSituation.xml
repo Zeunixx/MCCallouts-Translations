@@ -1,106 +1,135 @@
 <HostageSituation>
+
+<!-- Hello translator, don't get confused by the CDATA!                    -->
+<!-- Just write in between the bracktes [ ]                                -->
+<!-- for example <![CDATA[ HERE COMES THE TEXT ]]>                         -->
+<!-- CDATA is basically there to show the '&'-sign and '<>'-signs ingame   -->
+
+<!-- 
+<![CDATA[
+-->
+<!--
+]]>
+-->
+
+
     <General>
-        <Text>Rehin Alma Olayı</Text>
-        <Text>Bir kişi bir rehineyi silah zoruyla tutuyor</Text>
-        <Text>Rehin alma olay yerine Kod 3, acil!</Text>
-        <Text><![CDATA[Aracınızı sarı işaretli yere park edin ve şüpheliyle konuşurken siper alın.]]></Text>
-        <Text>~g~Rehine~w~ ile konuş.</Text>
-        <Text>Tamam tamam, teslim oluyorum!</Text>
+        <Text>Rehine Olayi</Text>
+        <Text>Bir kişi silahıyla birisini rehine aldı</Text>
+        <Text>Rehine durumuna Kod 3 şeklinde git, acil!</Text>
+        <Text><![CDATA[Arabanızı sarı işarete park edin ve şüpheliyle konuşurken siper alın.]]></Text>
+        <Text>~g~Rehine~g~ ile konuş.</Text>
+        <Text>Tamam, tamam. Teslim oluyorum!</Text>
         <Text>Oraya park et ve aracının arkasına siper al.</Text>
     </General>
+
     <PedStatus>
         <Text>~r~Şüpheli ~s~tutuklandı!</Text>
         <Text>~g~Rehine ~y~tutuklandı?!</Text>
         <Text>~o~Şüpheli~s~ ~r~öldü.~s~</Text>
         <Text>~g~Rehine~s~ ~r~öldü...~s~</Text>
     </PedStatus>
+
     <DisplayHelp>
-        <Text>~b~Soruşturmayı~s~ bitirdikten sonra görevden ayrılmak için</Text>
-        <Text>tuşuna basın.</Text>
-        <Text>Şüpheliyle konuşmak için</Text>
+        <Text></Text>                                                          <!-- Press _Key_Y__ to end ... -->
+        <Text>~b~İnceleme~s~ bitince şu tuşuna basın.</Text>  <!-- Press _Key_Y__ to end ... -->
+        <Text>Şüpheliyle şu tuşa basarak konuş </Text>                                      <!-- Talk to the suspect using _Key_Y_ -->
     </DisplayHelp>
-    <DistanceToSuspect>
-        <Dialogue>~o~Defol git yoksa ateş ederim!</Dialogue>
-        <Dialogue>~g~Tam zamanında yetiştin!</Dialogue>
-        <Dialogue>~r~Şimdi mermi yağmuru yağacak!</Dialogue>
+
+    <DistanceToSuspect> <!-- Rehine ile şüpheliye çok yakınsanız, önce bir uyarı alırsınız, birkaç saniye sonra hala oradaysanız, ateş eder -->
+        <Dialogue>~o~Geri çekil yoksa vururum!</Dialogue>
+        <Dialogue>~g~Tam zamanında!</Dialogue>
+        <Dialogue>~r~Şimdi mermi yağdıracağım!</Dialogue>
     </DistanceToSuspect>
-    <DistanceWarner>
+
+    <DistanceWarner> <!-- Rehinenin bulunduğu şüpheli araca çok yaklaşırsanız, önce bir uyarı alırsınız, birkaç saniye sonra hala oradaysanız, ateş eder -->
         <Dialogue>~o~Mesafeni koru yoksa şüpheli sinirlenir!~s~</Dialogue>
-        <Dialogue>~g~Aferin, güvenli bir mesafede kal.~s~</Dialogue>
-        <Dialogue>~r~Çok yakındın! Dikkatli ol!~s~</Dialogue>
+        <Dialogue>~g~Aferin, güvenli mesafede dur.~s~</Dialogue>
+        <Dialogue>~r~Çok yakındın! Dikkat et!~s~</Dialogue>
     </DistanceWarner>
+
     <Menu>
-        <MenuName>Karar Ver:</MenuName>
+        <MenuName>Karar ver:</MenuName>
+
         <Menu1>
-            <Conversation>Sabit kal</Conversation>
-            <Conversation>~y~Siz~s~: Merak etmeyin, burada kalacağım.</Conversation>
-            <Conversation>Baskı yap</Conversation>
-            <Conversation>~y~Siz~s~: Koca kafanı patlatırım, seni alçak herif!</Conversation>
+                <Conversation>Kıpırdama.</Conversation>
+                <Conversation>~y~Sen~s~: Merak etme, yerimden ayrılmayacağım.</Conversation>
+                <Conversation>Baskı uygula</Conversation>
+                <Conversation>~y~Sen~s~: Kafanı uçuracağım, seni piç kurusu!</Conversation>
         </Menu1>
+
         <Menu2>
-            <Conversation>20.000 TL nakit</Conversation>
-            <Conversation>~y~Siz~s~: Sana 20.000 TL nakit vereceğiz, nasıl bir teklif?</Conversation>
-            <Conversation>Tutukluluk koşullarını iyileştir</Conversation>
-            <Conversation>~y~Siz~s~: Patronuna televizyonlu daha büyük bir hücre ayarlayabiliriz, buna ne dersin?</Conversation>
-            <Conversation><![CDATA[Temiz sayfa ve psikolog öner]]></Conversation>
-            <Conversation>~y~Siz~s~: Anlıyorum. Bir arkadaşım çok iyi bir psikolog, sana tekrar hayata dönmen için yardımcı olabilir, nasıl bir teklif?</Conversation>
+                <Conversation>20,000₺ nakit</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>~y~Sen~s~: Size 20,000₺ nakit para vereceğiz, kulağa hoş geliyor mu?</Conversation> <!-- Feel free to change currency (€) to your country. -->
+                <Conversation>Gözaltı koşullarını iyileştir.</Conversation>
+                <Conversation>~y~Sen~s~: Patronuna televizyonlu ve daha büyük bir hücre ayarlayabiliriz, buna ne dersin?</Conversation>
+                <Conversation><![CDATA[Yeni bir başlangıç & psikolog öner]]></Conversation>
+                <Conversation>~y~Sen~s~: Anlıyorum. Bir arkadaşım harika bir psikologdur, tekrar doğru yola dönmene yardımcı olabilir, kulağa nasıl geliyor?</Conversation>
         </Menu2>
+
         <Menu3>
-            <Conversation>Sınırlı yakıtı olan kaçış aracı</Conversation>
-            <Conversation>~y~Siz~s~: Yakıtı sınırlı bir kaçış aracı alacaksın, ama nereye gideceksin?</Conversation>
-            <Conversation>Pizza öner</Conversation>
-            <Conversation>~y~Siz~s~: Bunun yerine bir pizza ister misin?</Conversation>
+                <Conversation>Sınırlı yakıtı olan kaçış aracı</Conversation>
+                <Conversation>~y~Sen~s~: Sınırlı yakıtı olan bir kaçış arabası alacaksın, ama nereye gidiyorsun?</Conversation>
+                <Conversation>Pizza öner</Conversation>
+                <Conversation>~y~Sen~s~: Onun yerine pizzaya ne dersin?</Conversation>
         </Menu3>
     </Menu>
+
     <SuspectTalk>
-        <Dialogue>~r~Şüpheli~s~: Defolun! Ne istiyorsunuz burada?! Sakın daha fazla yaklaşmayın!</Dialogue>
-        <Dialogue>~r~Şüpheli~s~: Umarım öyledir! Şimdi herkes gitsin, daha fazla polis görmek istemiyorum!</Dialogue>
-        <Dialogue>~r~Şüpheli~s~: Bana hiçbir şey yapamazsınız! Daha fazla polis görmek istemiyorum, yoksa mermi yağmuru yağar!</Dialogue>
-        <Dialogue>~y~Siz~s~: Anlıyorum, ama bina etrafı çevrili.</Dialogue>
-        <Dialogue>~y~Siz~s~: Ben bu olayın barışçıl bir şekilde bitmesini istiyorum, senin, rehinenin ve memurların güvenliği için.</Dialogue>
-        <Dialogue>~y~Siz~s~: Dükkanı neden soydun?</Dialogue>
+                <Dialogue>~r~Şüpheli~s~: Kaybol! Ne arıyorsun burada?! Daha fazla yaklaşma!</Dialogue>
+                <Dialogue>~r~Şüpheli~s~: Umarım öyledir! Şimdi, herkes gitsin, daha fazla polis görmek istemiyorum!</Dialogue>
+                <Dialogue>~r~Şüpheli~s~: Bana hiçbir şey yapamazsınız! Daha fazla polis görmek istemiyorum, yoksa kurşun yağdırmaya başlayacağım!</Dialogue>
+                <Dialogue>~y~Sen~s~: Anlıyorum ama binanın etrafı çevrili.</Dialogue>
+                <Dialogue>~y~Sen~s~: Bunun barışçıl bir şekilde sona ermesini istiyorum, sizin için, rehine için ve polisler için.</Dialogue>
+                <Dialogue>~y~Sen~s~: Neden dükkanı soydun?</Dialogue>
         <Reasons>
             <Dialogue>~r~Şüpheli~s~: ~b~Paraya~s~ ihtiyacım var, ~b~beş parasızım~s~ ve artık kiramı ödeyemiyorum!</Dialogue>
-            <Dialogue>~r~Şüpheli~s~: Onun suçu! ~b~Beni terk etti!~s~ Ve şimdi o benim rehinem!</Dialogue>
-            <Dialogue>~r~Şüpheli~s~: ~b~Patronum~s~ ~b~hapiste~s~, o serbest kalana kadar gitmeyeceğim!</Dialogue>
+            <Dialogue>~r~Şüpheli~s~: Bu onun hatası! ~b~Beni terk etti!~s~ Ve şimdi benim rehinem!</Dialogue>
+            <Dialogue>~r~Şüpheli~s~: ~b~Patronum~s~ ~b~Hapishanede~s~, o özgür kalana kadar gitmeyeceğim!</Dialogue>
         </Reasons>
-        <Dialogue>~y~Siz~s~: Beni iyi dinle, sana şöyle bir teklif sunuyorum:</Dialogue>
-        <Dialogue>~r~Şüpheli~s~: Anlaşmayı yapacağız ama karşılığında ne istiyorsun?</Dialogue>
-        <Dialogue>~y~Siz~s~: Herkesin güvenli bir şekilde evine gitmesi ve rehineyi serbest bırakman!</Dialogue>
-        <Dialogue>~r~Şüpheli~s~: Bana bir kaçış aracı verirsen, rehineleri daha sonra bırakacağım!</Dialogue>
-        <Dialogue>~r~Şüpheli~s~: Bu mantıklı değil, son teklif...</Dialogue>
+                <Dialogue>~y~Sen~s~: İyi dinle, sana bir anlaşma öneriyorum:</Dialogue>
+                <Dialogue>~r~Şüpheli~s~: Anlaşmayı yapacağız, ama karşılığında ne istiyorsun?</Dialogue>
+                <Dialogue>~y~Sen~s~: Bir kez daha, herkes güvenli bir şekilde evine gitmeli ve rehineyi bırakmalısın!</Dialogue>
+                <Dialogue>~r~Şüpheli~s~: Sen bana bir kaçış arabası ver, rehineyi sonra bırakırım!</Dialogue>
+                <Dialogue>~r~Şüpheli~s~: Bu hiç mantıklı değil, son teklif...</Dialogue>
         <Fail>
-            <Dialogue>~r~Şüpheli~s~: Siktirin gidin siz de, anlaşmalarınız da! Ve hala polisler burada!</Dialogue>
-            <Dialogue>~r~Şüpheli~s~: Şimdi ne olacağını göreceksiniz!</Dialogue>
-            <Dialogue>~r~Şüpheli~s~: Siz delisiniz! Şimdi ne olacağını göreceksiniz!</Dialogue>
+            <Dialogue>~r~Şüpheli~s~: Seni de anlaşmalarını da sikeyim! Ve polis hala burada.</Dialogue>
+            <Dialogue>~r~Şüpheli~s~: Şimdi gününüzü göreceksiniz!</Dialogue>
+            <Dialogue>~r~Şüpheli~s~: Sen delirmişsin! Şimdi gününüzü göreceksiniz!</Dialogue>
         </Fail>
-        <Dialogue>~r~Şüpheli~s~: Size söylemeyeceğim, ama daha fazla polis görmediğim an rehineleri serbest bırakacağım.</Dialogue>
-        <Dialogue>~y~Siz~s~: Araba her an orada olur...</Dialogue>
+                <Dialogue>~r~Şüpheli~s~: Sana söylemiyorum ama daha fazla polis görmezsem rehineyi serbest bırakacağım.</Dialogue>
+                <Dialogue>~y~Sen~s~: Araba her an gelebilir...</Dialogue>
+        
+        
     </SuspectTalk>
+
     <SuspectDrives>
-        <Text>Şüphelinin aracını takip et, ama aracı göremeyeceği kadar mesafeni koru!</Text>
-        <Text><![CDATA[~g~Şüpheli kendini güvende hissetmeli,~s~ şimdi onu sıkıştırma ve ~r~tutuklama~s~ zamanı!]]></Text>
-        <Text>Araca bir takip cihazı yerleştirildi ve aktif.</Text>
-        <Text>FBI rapor etti: ~y~O~s~ tuşuna basarak aracın ~y~motorunu devre dışı~s~ bırakabilirsin!</Text>
-        <Text><![CDATA[~y~Şüpheliyi tutukla~s~! Aracını bloke et ve onu tutukla!]]></Text>
-        <Text>Araç devre dışı bırakıldı, şüpheliyi yakala!</Text>
+        <Text>Şüphelinin aracını takip edin, ancak mesafenizi koruduğunuzdan emin olun, böylece sizi göremez!</Text>
+        <Text><![CDATA[~g~Şüpheli kendini güvende hissetmeli,~s~ onu sıkıştırma & ~r~tutuklama~s~ zamanı!]]></Text>
+        <Text>Araca bir takip cihazı takılmıştır ve aktif durumdadır.</Text>
+        <Text>FBI raporladı: Aracın motorunu ~y~O~s~ tuşuna basarak devre dışı bırakabilirsiniz!</Text>
+        <Text><![CDATA[~y~Şüpheliyi göz altına alın~s~! Aracını bloke edin ve onu tutuklayın!]]></Text>
+        <Text>Araç etkisiz hale getirildi, şüpheliyi yakalayın!</Text>
     </SuspectDrives>
+
     <HostageTalk>
-        <Dialogue>~g~Rehine~s~: Çok teşekkür ederim, o adam tamamen deli! İnanamıyorum!</Dialogue>
-        <Dialogue>~y~Siz~s~: Sakin olun. Rehin alan kişi artık sizin için bir sorun değil.</Dialogue>
-        <Dialogue>~y~Siz~s~: İyi misiniz? Tıbbi veya psikolojik bir yardıma ihtiyacınız var mı?</Dialogue>
-        <Dialogue>~g~Rehine~s~: İyiyim, sadece eve gitmek istiyorum.</Dialogue>
-        <Dialogue>~y~Siz~s~: Rehin alma olayı nasıl oldu?</Dialogue>
+                <Dialogue>~g~Rehine~s~: Çok teşekkür ederim, adam tam bir deli! Buna inanamıyorum!</Dialogue>
+                <Dialogue>~y~Sen~s~: Sakin ol. O adam artık senin için bir sorun değil.</Dialogue>
+                <Dialogue>~y~Sen~s~: İyi misiniz? Tıbbi veya psikolojik yardıma ihtiyacınız var mı?</Dialogue>
+                <Dialogue>~g~Rehine~s~: Ben iyiyim, sadece eve gitmek istiyorum.</Dialogue>
+                <Dialogue>~y~Sen~s~: Rehine olma durumu nasıl ortaya çıktı?</Dialogue>
         <ExGirlfriend>
-            <Dialogue>~g~Rehine~s~: Eski erkek arkadaşım delirmişti, iki hafta önce ondan ayrılmıştım.</Dialogue>
-            <Dialogue><![CDATA[~g~Rehine~s~: Bunu kaldıramadı ve beni buraya kadar takip etti.]]></Dialogue>
+            <Dialogue>~g~Rehine~s~: Eski erkek arkadaşımdı, iki hafta önce ondan ayrıldım. Ondan ayrılınca çıldırdı!</Dialogue>
+            <Dialogue><![CDATA[~g~Rehine~s~: Buna dayanamadı & beni buraya kadar takip etti.]]></Dialogue>
         </ExGirlfriend>
-        <Dialogue>~g~Rehine~s~: Sadece alışverişe gitmek istemiştim, sonra o adam geldi ve kafama silah dayadı!</Dialogue>
-        <Dialogue>~g~Rehine~s~: Taleplerini her şekilde zorla kabul ettirmeye kararlıydı...</Dialogue>
-        <Dialogue><![CDATA[~y~Siz~s~: Tamam, başka bir endişeniz yoksa, güvenli bir yolculuk ve kendinize iyi bakın!]]></Dialogue>
-        <Dialogue>~g~Rehine~s~: Tekrar teşekkürler, güle güle!</Dialogue>
+                <Dialogue>~g~Rehine~s~: Sadece alışveriş yapmak istiyordum, sonra adam geldi ve kafama silah doğrulttu!</Dialogue>
+                <Dialogue>~g~Rehine~s~: Dediklerini her şekilde yerine getirmeye kararlıydı.</Dialogue>
+                <Dialogue><![CDATA[~y~Sen~s~: Pekala, eğer başka bir sorun yoksa, eve güvenli bir şekilde gidin ve kendinize iyi bakın!]]></Dialogue>
+                <Dialogue>~g~Rehine~s~: Tekrardan teşekkürler, görüşmek üzere!</Dialogue>
     </HostageTalk>
+
     <End>
         <Text>~g~Kod 4.</Text>
     </End>
+
 </HostageSituation>
