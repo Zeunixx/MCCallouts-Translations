@@ -1,32 +1,33 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Taksi Ücreti Anlaşmazlığı</CALLOUTMESSAGE>
+    <CALLOUTMESSAGE>Taksi Ücreti Kavgası</CALLOUTMESSAGE>
     <CALLOUTADVISORY></CALLOUTADVISORY>
-    <TASK>Konuma sür ve anlaşmazlığı çöz.</TASK>
+    <TASK>Olay yerine git ve anlaşmazlığı çöz.</TASK>
     <D_PEACEFUL>
-        <DIALOGUE>~y~Siz:~s~ Pekala, sorun neymiş bakalım?</DIALOGUE>
-        <DIALOGUE>~b~Sürücü:~s~ Komiserim, bu adam taksime bindi, ama geldiğimizde indi ve parayı ödemeyi reddetti!</DIALOGUE>
-        <DIALOGUE>~p~Yolcu:~s~ Çünkü çok büyük bir dolambaçlı yoldan geldi! Haritayı kontrol ettim, en az on blok fazladan yol eklemiş. Onun parasını ödemeyeceğim!</DIALOGUE>
-        <DIALOGUE>~y~Siz:~s~ Bakın, tartışmak bir şeyi çözmez. Bir uzlaşma yolu bulmaya ne dersiniz?</DIALOGUE>
-        <DIALOGUE>~b~Sürücü:~s~ Uzlaşma mı? Onu buraya kadar ben getirdim, bana borcu var. İşte bu böyle işler!</DIALOGUE>
-        <DIALOGUE>~p~Yolcu:~s~ Ya öyle mi? Peki beni dolandırmak için eklediğin o fazladan millere ne demeli?</DIALOGUE>
-        <DIALOGUE>~y~Siz:~s~ Tamam, şöyle yapalım – sürücü sana küçük bir indirim yapsın, sen de geri kalanını öde? Böylece herkes mutlu ayrılır.</DIALOGUE>
-        <DIALOGUE>~b~Sürücü:~s~ Ahh... Pekala. %20 indirim yapacağım. Ama bu benim son teklifim.</DIALOGUE>
-        <DIALOGUE>~p~Yolcu:~s~ Pekala... Hala adil olmadığını düşünüyorum, ama neyse. Al paranı.</DIALOGUE>
+        <DIALOGUE>~y~Sen:~s~ Tamam, burada neler oluyor?</DIALOGUE>
+        <DIALOGUE>~b~Şoför:~s~ Memur bey, bu adam taksime bindi, varış noktasına gelince de indi, parayı vermedi!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Çünkü gereksiz yere yolu uzattı! Haritadan baktım, en az on blok fazla dolaştırdı. Ben o parayı ödemem!</DIALOGUE></DIALOGUE>
+        <DIALOGUE>~y~Sen:~s~ Bakın, tartışmak çözüm değil. Bir orta yol bulalım, olur mu?</DIALOGUE>
+        <DIALOGUE>~b~Şoför:~s~ Orta yol mu? Onu buraya kadar ben getirdim, ücreti ödemek zorunda. Kural bu!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Öyle mi? Peki senin milleti dolandırmak için sürdüğün o fazladan kilometreler ne olacak?</DIALOGUE>
+        <DIALOGUE>~y~Sen:~s~ Şöyle yapalım — şoför küçük bir indirim yapsın, sen de kalanını öde. Herkes memnun kalsın.</DIALOGUE>
+        <DIALOGUE>~b~Şoför:~s~ Off… peki, %20 indirim yaparım. Ama son teklifim bu!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Tamam… hâlâ haksızlık bu ama neyse. Al paranı.</DIALOGUE>
     </D_PEACEFUL>
     <D_FIGHT>
-        <DIALOGUE>~y~Siz:~s~ Burada neler oluyor?</DIALOGUE>
-        <DIALOGUE>~b~Sürücü:~s~ Bu adam taksime bindi ve şimdi ödemeyi reddediyor! Zamanımı boşa harcıyor ve bedavaya çalışmayacağım!</DIALOGUE>
-        <DIALOGUE>~p~Yolcu:~s~ Siktir git! En uzun yoldan gittiğini fark etmediğimi mi sandın? Beni dolandırdın ve sana bir kuruş bile vermeyeceğim!</DIALOGUE>
-        <DIALOGUE>~y~Siz:~s~ Beyefendi, taksiye bindin, bu da ödeme yapman gerektiği anlamına gelir. İşte bu böyle işler.</DIALOGUE>
-        <DIALOGUE>~p~Yolcu:~s~ Bok öderim! Bu dolandırıcı insanların zaaflarından faydalanabileceğini sanıyor!</DIALOGUE>
-        <DIALOGUE>~b~Sürücü:~s~ Asıl dolandırıcı sensin! Ben hizmet verdim, sen de hesabı ödemekten kaçıyorsun!</DIALOGUE>
-        <DIALOGUE>~p~Yolcu:~s~ Paramı almak mı istiyorsun? Dene de görelim!</DIALOGUE>
+        <DIALOGUE>~y~Sen:~s~ Neler oluyor burada?</DIALOGUE>
+        <DIALOGUE>~b~Şoför:~s~ Bu herif taksime bindi, şimdi de para vermiyor! Zamanımı çalıyor, bedavaya çalışmam ben!</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Kes ulan saçmalamayı! En uzun yolu seçtiğini fark etmedim mi sanıyorsun? Resmen dolandırdın beni, bir kuruş bile vermem!</DIALOGUE>
+        <DIALOGUE>~y~Sen:~s~ Beyefendi, o taksiye bindinizse ücretini ödeyeceksiniz. Kural bu.</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Siktir git be! Bu sahtekâr milleti yolmaya alışmış!</DIALOGUE>
+        <DIALOGUE>~b~Şoför:~s~ Sahtekâr sensin! Hizmet verdim, şimdi de parayı ödemem diyorsun ha?</DIALOGUE>
+        <DIALOGUE>~p~Yolcu:~s~ Gel al lan paranı, yüreğin yetiyorsa!</DIALOGUE>
     </D_FIGHT>
     <END>
-        <TEXT>{CalloutMessage} Kod 4. Normal devriyenize dönün.</TEXT>
-        <TEXT>{CalloutMessage} tamamlandı. Vardiyanıza devam edin.</TEXT>
-        <TEXT>{CalloutMessage} çözüldü. Devriye görevlerinize geri dönün.</TEXT>
-        <TEXT>{CalloutMessage} sona erdi. Standart devriyeye dönün.</TEXT>
-        <TEXT>{CalloutMessage} tamamlandı. Devriyeye devam etmekte serbestsiniz.</TEXT>
-    </END>
-</CALLOUT>
+        <TEXT>{CalloutMessage} Kodu 4. Normal devriyeye devam et.</TEXT>
+        <TEXT>{CalloutMessage} tamamlandı. Devriye görevine devam et.</TEXT>
+        <TEXT>{CalloutMessage} çözüldü. Görevine geri dön.</TEXT>
+        <TEXT>{CalloutMessage} sona erdi. Normal devriyeye dön.</TEXT>
+        <TEXT>{CalloutMessage} tamamlandı. Devriye serbest.</TEXT>
+30: </END>
+
+31: </CALLOUT>
