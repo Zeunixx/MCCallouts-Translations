@@ -2,118 +2,118 @@
 
     <General>
         <Text>Kayıp Evcil Hayvan</Text>
-        <Text>Arayan kişi evcil hayvanı için endişeleniyor</Text>
-        <Text>Kayıp evcil hayvan hakkında daha fazla bilgi almak için ~b~~h~Arayan kişiye~h~~s~ sürün.</Text>
+	<Text>Arayan sahibi evcil hayvanını kaybettiği için endişeli</Text>
+	<Text>~b~~h~Arayanın~h~~s~ yanına git ve kayıp hayvan hakkında bilgi al.</Text>
     </General>
 
     <Persons>
         <Dialogue>Arayan</Dialogue>
-        <Dialogue>Sürücü</Dialogue>
-        <Dialogue>Siz</Dialogue>
-        <Dialogue>Mağdur</Dialogue>
+	<Dialogue>Sürücü</Dialogue>
+	<Dialogue>Sen</Dialogue>
+	<Dialogue>Mağdur</Dialogue>
     </Persons>
 
     <Tasks>
-        <Text>Kişiyle konuşmak için {Key} tuşuna basın.</Text>
-        <Text>Bir kişinin bir hayvanın saldırısına uğradığına dair bir ihbar geldi!</Text>
-        <Text>Saldırıyı ~o~durdurmak~s~ için evcil hayvana ~y~taser ile vurmayı~s~ deneyin!</Text>
-        <Text>~r~Evcil hayvan~s~ ~g~saldırmayı bıraktı~s~!</Text>
-        <Text>Evcil hayvan için ~g~hayvan kontrol~s~ birimini arayın.</Text>
-        <Text>Mağdur için ~r~ambulans~s~ çağırın.</Text>
-        <Text>Mağdurla konuşmak için</Text>
-        <Text>Arayana sürün ve ona durumu bildirin.</Text>
-        <Text>Evcil hayvanı aracınıza ~r~ışınlamak~s~ için ~y~J~s~ tuşuna basın!</Text>
-        <Text>~r~Önce bir araca binin,~s~ sonra tekrar deneyin.</Text>
+        <Text>{Key} tuşuna basarak kişiyle konuş.</Text>
+        <Text>Bir kişinin hayvan tarafından saldırıya uğradığına dair ihbar alındı!</Text>
+        <Text>Saldırıyı ~y~durdurmak~s~ için hayvanı ~o~taser ile vurmaya~s~ çalış!</Text>
+        <Text>~r~Hayvan~s~ saldırmayı ~g~bıraktı~s~!</Text>
+        <Text>Evcil hayvan için ~g~hayvan kontrol ekiplerini~s~ çağır.</Text>
+        <Text>Mağdur için ~r~ambulans~s~ çağır.</Text>
+        <Text>Mağdurla konuşmak için tuşa bas.</Text>
+        <Text>Arayan kişiye gidip ona durum güncellemesi ver.</Text>
+        <Text>~y~J~s~ tuşuna basarak hayvanı aracına ~r~ışınla~s~!</Text>
+        <Text>~r~Önce bir araca bin,~s~ sonra tekrar dene.</Text>
     </Tasks>
 
     <TasksAccident>
-        <Text>Bir kişi bir {PetTypeAsNormalWord} buldu ve durumu bildirdi.</Text>
-        <Text>Evcil hayvanın bulunduğu konuma sürün.</Text>
-        <Text>Hayvan için bir ~b~~h~adli tıp uzmanı~h~~s~ çağırın, ardından tekrar ~b~~h~arayan kişiye~h~~s~ sürün.</Text>
+        <Text>Birisi {PetTypeAsNormalWord} buldu ve bunu bildirdi.</Text>
+        <Text>Hayvanın bulunduğu konuma sür.</Text>
+        <Text>Hayvan için bir ~b~~h~adli tıp uzmanır~h~~s~ çağır, sonra tekrar ~b~~h~arayan~h~~s~ın yanına dön.</Text>
     </TasksAccident>
 
     <Animals>
-        <Text>Agresif Köpek</Text>
-        <Text>Dağ Aslanı</Text>
-        <Text>Köpek</Text>
-        <Text>Kedi</Text>
-        <Text>Kır Kurdu</Text>
-        <Text>Geyik</Text>
-        <Text>Tavşan</Text>
-        <Text>Tavuk</Text>
-        <Text>Yaban Domuzu</Text>
-        <Text>Maymun</Text>
-        <Text>Rhesus Maymunu</Text>
+        <Text>Saldırgan Köpek</Text>
+	<Text>Dağ Aslanı</Text>
+	<Text>Köpek</Text>
+	<Text>Kedi</Text>
+	<Text>Kurt</Text>
+	<Text>Geyik</Text>
+	<Text>Tavşan</Text>
+	<Text>Tavuk</Text>
+	<Text>Yaban Domuzu</Text>
+	<Text>Maymun</Text>
+	<Text>Rhesus Maymunu</Text>
     </Animals>
 
     <CallerGeneral>
-        <Dialogue>Merhaba! Evcil hayvanımı bulamıyorum!</Dialogue>
-        <Dialogue>Birkaç dakikadır kayıp, ama buralarda bir yerde olmalı!</Dialogue>
-        <Dialogue>Oh, özür dilerim, o bir {PetTypeAsNormalWord} ve adı {PetName}.</Dialogue>
-        <Dialogue>Öylece kayıp gitti! Lütfen bulmama yardım edin!</Dialogue>
+        <Dialogue>Yaa! Evcil hayvanımı bulamıyorum, ne yapacağım?</Dialogue>
+        <Dialogue>Birkaç dakika önce kayboldu. Buralarda bir yerlerde olmalı, lütfen yardım edin!</Dialogue>
+        <Dialogue>Pardon, söylemeyi unuttum {PetTypeAsNormalWord} türünde, adı {PetName}.</Dialogue>
+        <Dialogue>Sanki yer yarıldı içine girdi, lütfen bulun onu!</Dialogue>
     </CallerGeneral>
 
     <DriverAccident1>
-        <Dialogue>Merhaba komiserim! Bakın ne oldu!</Dialogue>
-        <Dialogue>Hayvan arabamın önüne fırladı! Onu görme şansım bile olmadı!</Dialogue>
-        <Dialogue>Arabam da hasar gördü! Benim için bir taksi ve çekici çağırır mısınız?</Dialogue>
+        <Dialogue>Memur bey! Bakın ne oldu!</Dialogue>
+        <Dialogue>Hayvan arabamın tam önüne fırladı! Kaçmaya fırsatım olmadı!</Dialogue>
+        <Dialogue>Aracımda da hasar var! Bana taksi ve çekici çağırır mısınız?</Dialogue>
     </DriverAccident1>
 
     <DriverAccident2>
-        <Dialogue>Merhaba komiserim, çok üzgünüm, tam yolumda giderken bu hayvan karşıya geçti.</Dialogue>
-        <Dialogue>Zamanında tepki veremedim. Kahretsin.</Dialogue>
-        <Dialogue>Siz iyi olduğunuz sürece her şey yolunda. Aracınız da iyi durumda.</Dialogue>
-        <Dialogue>İhbar için teşekkürler. Sahibine haber vereceğim. Güvenli sürüşler.</Dialogue>
+        <Dialogue>Merhaba memur bey, çok üzgünüm, sadece sürüyordum ve hayvan aniden yola fırladı.</Dialogue>
+        <Dialogue>Zamanında reaksiyon gösteremedim ya. Lanet olsun.</Dialogue>
+        <Dialogue>Sen iyisen her şey yolunda demektir. Aracınız da iyi durumda.</Dialogue>
+        <Dialogue>İhbar için teşekkürler, sahibine haber veririm. Dikkatli sürün.</Dialogue>
     </DriverAccident2>
 
     <CallerReturnAccident1>
-        <Dialogue>Merhaba, kötü haberlerle geri döndüm.</Dialogue>
-        <Dialogue>Ah hayır, ne oldu?</Dialogue>
-        <Dialogue>Hayvana bir araba çarptı ve hayatta kalamadı.</Dialogue>
-        <Dialogue>Ah, bu çok üzücü. Ama evcil hayvan benim değildi; komşularıma aitti.</Dialogue>
-        <Dialogue>Komşularım benden sonsuza kadar nefret edecek, ah hayır...</Dialogue>
-        <Dialogue>Yine de, haber verdiğiniz için teşekkürler.</Dialogue>
-        <Dialogue>Ah hayır, yine de iyi günler!</Dialogue>
+        <Dialogue>Merhaba, kötü bir haberim var.</Dialogue>
+	<Dialogue>Aman Tanrım, ne oldu?</Dialogue>
+	<Dialogue>Hayvan bir arabanın çarpması sonucu hayatını kaybetti.</Dialogue>
+        <Dialogue>Ah, bu üzücü. Ama o benim evcil hayvanım değildi; komşulara aitti.</Dialogue>
+        <Dialogue>Komşularım beni ömür boyu sevmez artık, aman yarabbi...</Dialogue>
+        <Dialogue>Yine de haber verdiğiniz için teşekkürler.</Dialogue>
+        <Dialogue>Allah rahmet eylesin, iyi günler.</Dialogue>
     </CallerReturnAccident1>
 
     <CallerReturnAccident2>
         <Dialogue>Merhaba...</Dialogue>
-        <Dialogue>Ve... evcil hayvanı buldunuz mu?</Dialogue>
-        <Dialogue>Üzgünüm, ama evcil hayvanınıza yanlışlıkla bir araba çarptı. Birisi az önce bildirdi.</Dialogue>
-        <Dialogue>Ah kahretsin... O benim evcil hayvanım değildi. Komşularım tatilde ve ben ona bakıyordum...</Dialogue>
-        <Dialogue>Sizin için yapabileceğim başka bir şey var mı?</Dialogue>
-        <Dialogue>Hayır, teşekkürler... kahretsin... bunu nasıl açıklayacağım...</Dialogue>
+	<Dialogue>Peki... hayvan bulundu mu?</Dialogue>
+	<Dialogue>Üzgünüm ama evcil hayvanınız kaza sonucu bir araba tarafından ezildi. Az önce biri bildirdi.</Dialogue>
+        <Dialogue>Aman Allahım... O benim hayvanım değildi aslında. Komşular tatildeydi, ben bakıyordum...</Dialogue>
+        <Dialogue>Başka yapabileceğim bir şey var mı?</Dialogue>
+	<Dialogue>Hayır, teşekkürler... of... bunu nasıl anlatacağım...</Dialogue>
     </CallerReturnAccident2>
 
     <DriverAttackSafed1>
-        <Dialogue>Aman tanrım, beni kurtardığınız için teşekkür ederim!</Dialogue>
-        <Dialogue>Kendi halimdeydim ki aniden bu hayvan bana saldırdı!</Dialogue>
-        <Dialogue>Önemli değil, güvende olmanıza sevindim.</Dialogue>
-        <Dialogue>Teşekkürler, iyi günler!</Dialogue>
+        <Dialogue>Aman Tanrım, beni kurtardığınız için teşekkür ederim!</Dialogue>
+	<Dialogue>Ben kendi işime bakıyordum, bir anda bu hayvan bana saldırdı!</Dialogue>
+	<Dialogue>Sorun değil, güvende olmanıza sevindim.</Dialogue>
+	<Dialogue>Teşekkürler, iyi günler dilerim!</Dialogue>
     </DriverAttackSafed1>
 
     <CallerAttackReturnPetAlive2>
         <Dialogue>Hey, evcil hayvanınızı geri getirdim!</Dialogue>
-        <Dialogue>Harika, teşekkürler! Nerelerdeydin, {PetName}?</Dialogue>
-        <Dialogue>Size söylemeliyim ki, evcil hayvanınız masum bir sivile saldırdı!</Dialogue>
-        <Dialogue>Ah, çok üzgünüm, umarım ciddi bir şekilde yaralanmamıştır.</Dialogue>
-        <Dialogue>Bir rapor düzenlemek için kimlik gibi bilgilerinize ihtiyacım olacak.</Dialogue>
-        <Dialogue>Bu biter bitmez gidebilirsiniz.</Dialogue>
+	<Dialogue>Müthiş, sağ ol! Neredeydin {PetName}?</Dialogue>
+	<Dialogue>Sana söylemeliyim, hayvanın masum bir sivile saldırdı!</Dialogue>
+	<Dialogue>Çok özür dilerim, umarım ciddi bir yaralanma olmamıştır.</Dialogue>
+	<Dialogue>Rapor için kimliğinizi alacağım.</Dialogue>
+	<Dialogueİ>İşlem tamamlanınca gidebilirsiniz.</Dialogueİ>
     </CallerAttackReturnPetAlive2>
 
     <CallerAttackReturnPetDead2>
-        <Dialogue>Merhaba, size kötü bir haberim var. Maalesef evcil hayvanınız bir sivile saldırdı.</Dialogue>
-        <Dialogue>Öldürücü güç kullanmak zorunda kaldım; hayvan hayatta kalamadı.</Dialogue>
-        <Dialogue>Ah tamam, çok üzgünüm. Umarım kişi yaralanmamıştır?</Dialogue>
-        <Dialogue>Kişi iyi.</Dialogue>
-        <Dialogue>Gelecekte, evcil hayvanlarıma karşı daha dikkatli olacağım.</Dialogue>
-        <Dialogue>En önemlisi herkesin güvende olması. İyi günler.</Dialogue>
+        <Dialogue>Merhaba, kötü haberim var. Maalesef evcil hayvanınız bir sivile saldırdı.</Dialogue>
+	<Dialogue>Zorunlu olarak öldürücü güç kullanıldı; hayvan hayatta kalamadı.</Dialogue>
+	<Dialogue>Ah tamam, çok üzgünüm. Umarım saldırıya uğrayan kişi iyi durumdadır?</Dialogue>
+	<Dialogue>Kişi iyi durumda.</Dialogue>
+	<Dialogue>Gelecekte evcil hayvanımı daha dikkatli tutacağım.</Dialogue>
+	<Dialogue>En önemli şey herkesin güvende olması. İyi günler.</Dialogue>
     </CallerAttackReturnPetDead2>
 
 
     <End>
-        <Text>Operasyonu bitirmek için istediğiniz zaman ~y~End~s~ tuşuna basın.</Text>
-        <Text>~g~Operasyon Kod 4.</Text>
+        <Text>Herhangi bir zamanda ~y~End~s~ tuşuna basarak çağrıyı sonlandır.</Text>
+        <Text>~g~Olay Kod 4.</Text>
     </End>
 
 </MissingPet>

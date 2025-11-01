@@ -1,25 +1,25 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>~b~İnsan Avı</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Aranan bir firari en son {ZoneName} bölgesinde görüldü</CALLOUTADVISORY>
-    <TASK>Perimetreye sürün. Memurlar bölgeyi abluka altına aldı.</TASK>
+    <CALLOUTMESSAGE>~b~Aranan Kaçak</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>{ZoneName} bölgesinde aranan bir kaçak son görüldü</CALLOUTADVISORY>
+    <TASK>Çevreye git ve perimetreye yerleş. Memurlar bölgeyi kapatmış durumda.</TASK>
     <WARRANTS>
-        <TEXT>Cinayet</TEXT>
-        <TEXT>Saldırı</TEXT>
-        <TEXT>Mahkemeye Çıkmama</TEXT>
-        <TEXT>Tehlikeli Araç Kullanma</TEXT>
+       <TEXT>Cinayet</TEXT>
+	<TEXT>Saldırı</TEXT>
+	<TEXT>Mahkeme Tarihini Kaçırma</TEXT>
+	<TEXT>Tehlikeli Araç Kullanımı</TEXT>
     </WARRANTS>
     <BACKUP>
-        <TEXT>~b~Takviye ekip çağırmak için sonraki 10 saniye içinde ~y~{Y}~b~ tuşuna basın. Aramaya yardımcı olacaklar.</TEXT>
-        <TEXT>~b~Takviye ekip yolda ve şüpheliyi aramaya yardımcı olacak.</TEXT>
-        <TEXT>Anlaşıldı. Takviye ekip gönderilmeyecek.</TEXT>
+        <TEXT>~b~Destek çağırmak için önümüzdeki 10 saniye içinde ~y~{Y}~b~ tuşuna bas. Gelen ekip aramada sana destek verecek.</TEXT>
+        <TEXT>~b~Destek ekip yola çıktı ve şüpheliyi aramada yardımcı olacak.</TEXT>
+        <TEXT>Anlaşıldı. Destek ekip gönderilmeyecek.</TEXT>
     </BACKUP>
     <SEARCH>
-        <TEXT>~r~{Name}~s~ adlı şahsı, ~r~{Warrant}~s~ suçundan dolayı arıyoruz.</TEXT> 
-        <TEXT>Yardıma mı ihtiyacınız var? ~r~Şüphelinin~s~ yerini bulmak için ~{9}~ tuşuna basın!</TEXT>
-        <TEXT>~r~Şüpheli~s~ bulundu! Onu tutuklayın!</TEXT>
+        <TEXT>~r~{Name}~s~ aranıyor; suç: ~r~{Warrant}.</TEXT> 
+        <TEXT>Yardıma mı ihtiyacın var? Şüphelinin yerini ~{9}~ ile tespit et!</TEXT>
+        <TEXT>~r~Şüpheli~s~ bulundu! Onu yakala!</TEXT>
     </SEARCH>
     <END>
         <TEXT>{CalloutMessage} sona erdi.~n~</TEXT>
-        <TEXT>~g~Şüpheli ~r~{Name}~g~ tutuklandı.~n~</TEXT>
+        <TEXT>~g~Şüpheli ~r~{Name}~g~ yakalandı.~n~</TEXT>
     </END>
 </CALLOUT>

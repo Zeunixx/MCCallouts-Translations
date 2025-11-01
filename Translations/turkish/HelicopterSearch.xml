@@ -1,27 +1,28 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Çalıntı Araç İçin Helikopterle Arama</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Bir pilotun yerine geç!</CALLOUTADVISORY>
-    <TASK>Bir çalıntı araç, bölgedeki bir KGYS kamerası tarafından tespit edildi. Toplanma noktasında memur ile buluş.</TASK>
+    <CALLOUTMESSAGE>Çalıntı Araç İçin Helikopter Araması</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Pilot koltuğuna geç, görev seni bekliyor!</CALLOUTADVISORY>
+    <TASK>Bir CCTV kamerası bölgede çalıntı bir araç tespit etti. Buluşma noktasında memurla buluş.</TASK>
+<COP>
     <COP>
-        <DIALOGUE>~b~Memur:~s~ Pilot! Geldiğine sevindim.</DIALOGUE>
-        <DIALOGUE>~b~Memur:~s~ Bu bölgede son görülen bir çalıntı aracı arıyoruz.</DIALOGUE>
-        <DIALOGUE>~b~Memur:~s~ Aracın modeli ve rengi hakkında bilgilerimiz var, ancak bölgede birden fazla eşleşme olabilir.</DIALOGUE>
-        <DIALOGUE>~b~Memur:~s~ Lütfen aracın son görüldüğü bölgenin etrafında daire çiz ve helikopter tarayıcısı ile yakınlardaki araçları tara.</DIALOGUE>
-        <DIALOGUE>~b~Memur:~s~ İyi şanslar!</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Selam Pilot! Burada olduğuna sevindim.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ En son bu civarda görülen çalıntı bir araç arıyoruz.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Araç modeli ve rengi hakkında bilgilerimiz var ama birkaç muhtemel eşleşme mevcut.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Lütfen aracın son görüldüğü alanın etrafında tur at ve helikopter tarayıcısıyla yakınlardaki araçları tara.</DIALOGUE>
+        <DIALOGUE>~b~Memur:~s~ Kolay gelsin!</DIALOGUE>
     </COP>
     <VEHICLEINFO>
         <TEXT>Aranan araç:~n~</TEXT>
         <TEXT>~b~Model:~s~ {Model}~n~</TEXT>
-        <TEXT>~b~Renk:~s~ {Color}~n~</TEXT>
-        <TEXT>~b~Son görüldüğü yer:~s~ {Zone}</TEXT>
+	<TEXT>~b~Renk:~s~ {Color}~n~</TEXT>
+	<TEXT>~b~En son görüldüğü yer~s~ {Zone}</TEXT>
     </VEHICLEINFO>
     <SEARCH>
-        <TEXT>~r~Şüpheli tarandı ve bulundu! Durana kadar onu takip et veya ~o~trafik durdurması gerçekleştir!</TEXT>
-        <TEXT>Aradığımız araba bu değil.</TEXT>
-        <TEXT>Şüpheli park etti, şimdi onu tutukla!</TEXT>
+        <TEXT>~r~Şüpheli tarandı ve bulundu! Araç durana kadar takip et ya da ~o~trafik durdurması yap!</TEXT>
+        <TEXT>Bu aradığımız araç değil.</TEXT>
+        <TEXT>Şüpheli aracı park etti, şimdi onu araçtan indir ve tutukla!</TEXT>
     </SEARCH>
     <ACTION>
-        <TEXT>Şüpheli komutlarını görmezden geliyor.</TEXT>
+        <TEXT>Şüpheli komutlarınıza aldırış etmiyor.</TEXT>
         <TEXT>Şüpheli teslim oluyor.</TEXT>
     </ACTION>
 </CALLOUT>

@@ -1,36 +1,36 @@
 <CashTransport>
 
     <General>
-        <Text>Riskli Para Nakli</Text>
-        <Text>~g~~h~Olay yerine~h~~s~ sürün.</Text>
-        <Text>Konuşmak için {Y} tuşuna basın.</Text>
-        <Text>~b~~h~Varış noktasına~h~~s~ sürün.</Text>
-        <Text>Eğer RIOT ekibi takılı kalırsa istediğiniz zaman {Y} tuşuna basın.</Text>
-        <Text>~r~~h~Para aracının~h~~s~ arkasından ~HC_3~~h~para çantasını~h~~s~ alın.</Text>
-        <Text>Çantayı bankanın içine getirin.</Text>
-        <Text>Görevi bitirmek için istediğiniz zaman ~y~~h~Bitir~h~~s~ tuşuna basın.</Text>
+        <Text>Riskli Para Taşıma</Text>
+        <Text>~g~~h~Olay yerine~h~~s~ git.</Text>
+        <Text>Konuşmak için {Y} tuşuna bas.</Text>
+        <Text>~b~~h~Varış noktasına~h~~s~ sür.</Text>
+        <Text>RIOT araç takılırsa istediğin zaman {Y} tuşuna bas.</Text>
+        <Text>~r~~h~Para kamyonunun~h~~s~ arkasından ~HC_3~~h~nakit çantasını~h~~s~ al.</Text></Text>
+        <Text>Çantayı bankaya taşı.</Text>
+        <Text>İstediğin zaman ~y~~h~End~h~~s~ tuşuna basarak görevi bitirebilirsin.</Text>
     </General>
 
     <Persons>
-        <Text>Güvenlik Görevlisi</Text>
-        <Text>Siz</Text>
+        <Text>Koruma</Text>
+        <Text>Sen</Text>
         <Text>Bankacı</Text>
     </Persons>
 
     <Guard>
-        <Dialogue>Merhaba komiserim! Geldiğiniz için teşekkürler! Çok önemli bir nakliyatımız var.</Dialogue>
-        <Dialogue>Zırhlı banka aracı, varış noktamıza büyük miktarda para teslim edecek.</Dialogue>
-        <Dialogue>Aracı siz kullanacaksınız ve zırhlı bir RIOT aracı da sizi takip edecek.</Dialogue>
-        <Dialogue>Bir saldırı olabileceğine dair ihbarlar aldık. Bu yüzden siz ve RIOT ekibi yanımızdasınız. Hadi gidelim!</Dialogue>
+        <Dialogue>Selam memur bey! Geldiğiniz için sağ olun! Bugün çok önemli bir sevkiyatımız var.</Dialogue>
+        <Dialogue>Bu zırhlı banka kamyonu, yüklü miktarda parayı belirlenen adrese taşıyacak.</Dialogue>
+        <Dialogue>Kamyonu sen süreceksin, SWAT ekibi de arkandan koruma yapacak.</Dialogue>
+        <Dialogue>Saldırı olabileceğine dair ihbar aldık, o yüzden siz buradasınız. Hadi bakalım, dikkatli olalım!</Dialogue>
     </Guard>
 
     <Bankman>
-        <Dialogue>Merhaba! Görüyorum ki sağ salim gelmeyi başardınız. İşte bu yüzden sizin gibi profesyonelleri işe alıyoruz, benim meslektaşlarım gibi değil...</Dialogue>
-        <Dialogue>... Kesinlikle. En azından RIOT aracı kurşun geçirmez.</Dialogue>
-        <Dialogue>Para aracı da zırhlı, sadece camları hariç.</Dialogue>
-        <Dialogue>İşte çanta.</Dialogue>
-        <Dialogue>Harika, teşekkür ederim. Sizin için iyi şeyler söyleyeceğim!</Dialogue>
-        <Dialogue>Umarım bu riskinize değmiştir. İyi günler dilerim!</Dialogue>
+        <Dialogue>Selam! Sağ salim gelebilmenize sevindim valla. Şimdi anladım niye senin gibileri işe alıyoruz, şu beceriksizleri değil.</Dialogue>
+        <Dialogue>... Kesinlikle. En azından RIOT aracı mermi geçirmiyor.</Dialogue>
+        <Dialogue>Para kamyonu da zırhlı tabii—sadece camlar biraz hassas.</Dialogue>
+        <Dialogue>Buyur, çanta burada.</Dialogue>
+        <Dialogue>Mükemmel, sağ ol. Senin hakkında iyi bir rapor yazacağım!</Dialogue>
+        <Dialogue>Umarım bu risk değmiştir. İyi günler, dikkat et kendine!</Dialogue>
     </Bankman>
 
 </CashTransport>

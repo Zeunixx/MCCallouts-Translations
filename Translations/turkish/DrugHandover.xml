@@ -2,55 +2,55 @@
 
     <General>
         <CalloutMessage>Uyuşturucu Teslimatı</CalloutMessage>
-        <CalloutAdvisory>~o~Özel harekat keskin nişancısı olarak buluşmayı engelleyin~s~</CalloutAdvisory>
+        <CalloutAdvisory>~o~Özel kuvvet keskin nişancısı gibi teslimatı engelleyin~s~</CalloutAdvisory>
     </General>
 
     <Persons>
-        <Text>Siz</Text>
-        <Text>Komiser</Text>
+        <Text>Sen</Text>
+        <Text>Memur</Text>
     </Persons>
 
     <EState>
         <Meeting>
             <D_Briefing>
-                <Dialogue>Merhaba, aramıza katıldığınız için teşekkürler.</Dialogue>
-                <Dialogue>Bu brifing, neler olup bittiğine dair size bir genel bakış sunmak için düzenlendi.</Dialogue>
-                <Dialogue>Grapeseed Havaalanı'nda bugün yasa dışı bir uyuşturucu teslimatı yapılacağına dair ihbarlar aldık.</Dialogue>
-                <Dialogue>En iyi eğitimli keskin nişancı elitlerinden biri olarak, göreviniz gözetlemek ve bir uyuşturucu anlaşması yapıldığında bizi aramak.</Dialogue>
-                <Dialogue>Daha sonra 2 sivil ekip ve 1 adet SWAT zırhlı aracıyla olay yerine geleceğiz. Eğer ateşle karşılık verirlerse, göreviniz onları etkisiz hale getirmek.</Dialogue>
-                <Dialogue>Havaalanının yanındaki binalardan birinde sizin için iyi bir keskin nişancı pozisyonu belirledik.</Dialogue>
-                <Dialogue>Ama şimdilik, önce karakolda, hemen oradaki masadan bir keskin nişancı tüfeği seçin.</Dialogue>
+                <<Dialogue>Merhaba, katıldığın için sağ ol.</Dialogue>
+                <Dialogue>Bu brifing sana olan biteni özetlemek için.</Dialogue>
+                <Dialogue>Grapeseed Havaalanı'nda bugün yasa dışı bir uyuşturucu teslimatı yapılacağı yönünde bilgiler aldık.</Dialogue>
+                <Dialogue>Sen en iyi eğitilmiş keskin nişancılardan olduğun için görevin; gözetlemek ve teslimat gerçekleştiğinde bize haber vermek.</Dialogue>
+                <Dialogue>Ardından 2 sivil ekip ve 1 adet zırhlı SWAT aracıyla hızlıca içeri dalacağız. Ateş altında kalırsak hedefleri temizlemek senin işin.</Dialogue>
+                <Dialogue>Havaalanı yanındaki binalardan birinde senin için iyi bir nişancı mevzisi tespit ettik.</Dialogue>
+                <Dialogue>Ama önce, polis merkezindeki masada bir keskin nişancı tüfeği seçmen gerekiyor.</Dialogue>
             </D_Briefing>
-            <Text>Karakolda kendinize bir keskin nişancı tüfeği alın.</Text>
+            <Text>Polis merkezinden kendine bir tüfek al.</Text>
         </Meeting>
 
         <Weapon>
             <WeaponSelector>
                 <Text>Silah Seçici</Text>
                 <Text>Silahlar</Text>
-                <Text>Bir Silah Seçin</Text>
-                <Text>Şunu kuşandınız: </Text>
+                <Text>Bir Silah Seç</Text>
+                <Text>Şu silahı kuşandın: </Text> <!--WeaponType is harcoded in english-->
             </WeaponSelector>
-            <Text>Şimdi olay yerine sürün ve hazırlanın.</Text>
+            <Text>Şimdi olay yerine doğru sür ve hazırlıklarını yap.</Text>
         </Weapon>
 
         <DriveToScene>
-            <Text>Burası ihbar edilen ~o~uyuşturucu teslimat buluşma noktası~s~. Şimdi mini haritada ~g~keskin nişancı pozisyonunuzun~s~ nerede olacağını göreceksiniz, oradaki çatıya çıkın.</Text>
+            <Text>Burası bildirilen ~o~uyuşturucu teslimat noktası~s~. Minimap'de ~g~nişancı mevzini~s~ göreceksin, çatının üstüne çık.</Text>
         </DriveToScene>
 
         <IsAtÜbergabeort>
-            <Text>Şimdi ~r~asıl teslimatı~s~ bekleyin.</Text>
+            <Text>Şimdi ~r~asıl teslimatı~s~ bekle.</Text>
         </IsAtÜbergabeort>
     </EState>
 
     <Scenarios>
-        <Text>~g~Teslimat~s~ bittiğinde, içeri girin ve ~r~şüphelileri~s~ tutuklayın!</Text>
+        <Text>~g~Teslimat~s~ yapıldığında içeri gir ve ~r~şüphelileri~s~ yakala!</Text>
         <Text>~r~Ateş açıldı!</Text>
-        <Text>~r~Şüpheliler~s~ ayrılıyor, ~g~çantayı~s~ güvenceye alın!</Text>
-        <Text>Şüpheliler ~r~kaçıyor~s~, takipteyiz!</Text>
+        <Text>~r~Şüpheliler~s~ kaçıyor, çantayı güvene al!</Text>
+        <Text>Şüpheliler ~r~kaçıyor~s~, takip ediyoruz!</Text>
         <Text>Şüpheliler teslim oluyor!</Text>
-        <Text>~g~Çantayı~s~ {0} tuşuyla alabilirsiniz.</Text>
-        <Text>~g~Çanta~s~ güvenceye alındı!</Text>
+        <Text>~g~Çantayı~s~ {0} ile alabilirsin.</Text>
+        <Text>~g~Çanta~s~ güvene alındı!</Text>
     </Scenarios>
 
 </DrugHandover>
