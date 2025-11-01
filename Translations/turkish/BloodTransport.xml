@@ -1,25 +1,25 @@
 <CALLOUT>
-    <CALLOUTMESSAGE>Acil Kan Nakli</CALLOUTMESSAGE>
-    <CALLOUTADVISORY>Bir hasta acil kana ihtiyaç duyuyor</CALLOUTADVISORY>
-    <TASK>Konuma sürün.</TASK>
+    <CALLOUTMESSAGE>Acil Kan Taşıma Görevi</CALLOUTMESSAGE>
+    <CALLOUTADVISORY>Bir hastanın acilen kana ihtiyacı var</CALLOUTADVISORY>
+    <TASK>Olay yerine git.</TASK>
     <STATE>
         <PICKUPBAG>
-            <TEXT>Kan torbasını sağlık görevlisinden alın, sonra bagajınıza koyun.</TEXT>
+            <TEXT>Sağlık görevlisinden kan torbasını al, ardından bagaja yerleştir.</TEXT>
         </PICKUPBAG>
         <PUTBAGINTRUNK>
-            <TEXT>Kan torbasını bagaja koymak için ~y~{Y}~s~ tuşuna basın.</TEXT>
+            <TEXT>Kan torbasını bagaja koymak için ~y~{Y}~s~ tuşuna bas.</TEXT>
         </PUTBAGINTRUNK>
         <DRIVETODESTINATIONHOSPITAL>
-            <TEXT>Şimdi hastaneye doğru sürün, teslimatınızı bekliyorlar.</TEXT>
+            <TEXT>Şimdi hastaneye doğru yola çık, teslimatı bekliyorlar.</TEXT>
         </DRIVETODESTINATIONHOSPITAL>
         <GRABFROMTRUNK>
-            <TEXT>Bagajdan ~y~{Y}~s~ tuşuna basarak ~r~kan torbasını~s~ alın.</TEXT>
+            <TEXT>Bagajdan ~r~kan torbasını~s~ almak için ~y~{Y}~s~ tuşuna bas.</TEXT>
         </GRABFROMTRUNK>
         <GIVEBAGTODOC>
-            <TEXT>Şimdi kan torbasını doktora götürün!</TEXT>
+            <TEXT>Torbayı hemen doktora teslim et!</TEXT>
         </GIVEBAGTODOC>
         <AUTOEND>
-            <TEXT>~r~Kan torbasını~s~ ~g~başarıyla~s~ teslim ettiniz!</TEXT>
+            <TEXT>~g~Başarıyla~s~ ~r~kan torbasını~s~ teslim ettin!</TEXT>
             <TEXT>{CalloutMessage} sona erdi.</TEXT>
         </AUTOEND>
     </STATE>

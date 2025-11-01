@@ -1,37 +1,37 @@
 <BurningDumpster>
 
     <General>
-        <Text>~r~Yanan çöp konteyneri~b~ ihbarı</Text>
-        <Text>Yangın söndürücüsü olan ekip Code 3 koduyla yanıt versin</Text>
-        <Text>Konuma sürün ve ~r~yangını~s~ söndürün ya da ~r~itfaiyeyi~s~ arayın!</Text>
+        <Text>~r~Yanan çöp konteyneri~b~ ihbarı alındı</Text>
+        <Text>Yangın söndürücü bulunduran ekip, Kod 3 olarak bölgeye intikal etsin</Text>
+        <Text>Olay yerine gidip ~r~yangını~s~ söndürün veya ~r~itfaiyeyi~s~ çağırın!</Text>
     </General>
 
     <Persons>
-        <Text>Arayan</Text>
-        <Text>Siz</Text>
+        <Text>İhbarcı</Text>
+        <Text>Sen</Text>
     </Persons>
 
     <Extingiush>
-        <Text>~r~Yangın söndürücüsünü~s~ almak için, bagajınıza gidin ve basın</Text>
-        <Text>~r~Yangın söndürücüsü~s~ kuşanıldı!</Text>
-        <Text>Şimdi ~y~işaretçilerdeyken~s~ {Key} tuşuna basarak ~y~delil~s~ arayın.</Text>
+        <Text>~r~Yangın söndürücü~s~ almak için bagajına git ve tuşa bas</Text>
+        <Text>~r~Yangın söndürücü~s~ kuşanıldı!</Text>
+        <Text>Şimdi ~y~delil~s~ aramak için ~y~işaretli alanlarda~s~ {Key} tuşuna bas.</Text>
     </Extingiush>
 
     <Tasks>
-        <Text>911'i ~b~arayanla~s~ konuşun</Text>
-        <Text>Fotoğrafı tekrar görmek için dilediğiniz zaman {MusicMenuKey} tuşuna basın!</Text>
-        <Text>Merkez, Şüpheli ~r~kaçıyor!</Text>
+        <Text>911'i ~b~arayan~s~ kişi ile konuşmak için</Text>
+        <Text>Resmi tekrar görmek için istediğin zaman {MusicMenuKey} tuşuna bas!</Text>
+        <Text>Merkez, şüpheli ~r~kaçıyor!</Text>
     </Tasks>
 
     <Caller>
-        <Dialogue>Merhaba, yanan çöpü ihbar eden siz misiniz?</Dialogue>
-        <Dialogue>Evet, bendim. Gördüğüm şüpheli bir kişiyi bildirmek istedim.</Dialogue>
-        <Dialogue>Çöp kutusunun yanından geçerken birinin oradan uzaklaştığını gördüm.</Dialogue>
-        <Dialogue>Hemen sonra yangın başladı!</Dialogue>
-        <Dialogue>Şüpheli görünüyor. Şüpheli hakkında herhangi bir bilginiz var mı?</Dialogue>
-        <Dialogue>Elbette, {gender} ve yaklaşık {age} yaşındaydı.</Dialogue>
-        <Dialogue>Hatta bir fotoğrafını çekmeyi başardım. İşte burada!</Dialogue>
-        <Dialogue>Teşekkürler. Şimdi şüpheliyi arıyoruz. Hoşça kalın!</Dialogue>
+        <Dialogue>Merhaba, yanan çöple ilgili ihbarı sen mi yaptın?</Dialogue>
+        <Dialogue>Evet, benim. Şüpheli birini gördüğüm için bildirmek istedim.</Dialogue>
+        <Dialogue>Çöp kutusunun yanından geçerken birinin uzaklaştığını fark ettim.</Dialogue>
+        <Dialogue>Tam o sırada yangın başladı!</Dialogue>
+        <Dialogue>Bu biraz şüpheli görünüyor. Şüpheliyle ilgili bir bilgin var mı?</Dialogue>
+        <Dialogue>Tabii, {gender} idi ve yaklaşık {age} yaşlarındaydı.</Dialogue>
+        <Dialogue>Hatta fotoğrafını çekmeyi başardım. İşte burada!</Dialogue>
+        <Dialogue>Teşekkürler. Şüpheliyi şimdi arıyoruz. İyi günler!</Dialogue>
     </Caller>
 
     <Genders>
@@ -41,22 +41,22 @@
     </Genders>
 
     <Evidence>
-        <Dialogue>Bir Molotof kokteyli, bu bir kaza değil... birisi yangın çıkarmak istemiş.</Dialogue>
-        <Dialogue>Benzinle dolu bir bidon, sanki birisi bir şeyi ateşe vermeye hazırlanıyormuş gibi görünüyor.</Dialogue>
-        <Dialogue>Bir bong? Garip... belki birisi çıkardığı yangını fark edemeyecek kadar kafası güzeldi.</Dialogue>
-        <Dialogue>Bir parça tesirli el bombası. Bu basit bir yangın değil, çok daha tehlikeli bir şeyle uğraşıyoruz.</Dialogue>
-        <Dialogue>Bir sis bombası. Yangını çıkarmadan önce izlerini örtmek için kullanılmış olabilir.</Dialogue>
-        <Dialogue>Kırık bir şişe. Doğaçlama gibi görünüyor, ancak yangını çıkarmak için kullanılmış olabilir.</Dialogue>
-        <Dialogue>Bir gaz tüpü. Eğer bu patlasaydı, tüm bölge alevler içinde kalabilirdi.</Dialogue>
-        <Dialogue>Bir petrol varili. Sızdırıyor... ve oldukça yanıcı. Birisi yangını yaymak istemiş gibi görünüyor.</Dialogue>
-        <Dialogue>Bir benzin bidonu. Benzin gibi kokuyor... birisi burayı gerçekten yakmak istemiş.</Dialogue>
-        <Dialogue>Bir çorap? Pek bir şeye benzemeyebilir, ama yangın tehlikesi oluşturacak kadar kötü kokuyor.</Dialogue>
-        <Dialogue>Tipik. Birisi yanan bir sigarayı çöpün içine atmış, sonra da alev almış.</Dialogue>
-        <Dialogue>Bir çorap? Pek bir şeye benzemeyebilir, ama yangın tehlikesi oluşturacak kadar kötü kokuyor.</Dialogue>
+        <Dialogue>Bir molotof kokteyli... bu bir kaza değil, birisi bilerek yangın çıkarmış.</Dialogue>
+        <Dialogue>Benzin dolu bir bidon... biri açıkça bir şeyleri yakmaya hazırlanmış.</Dialogue>
+        <Dialogue>Bir bong mu? Garip... belki de biri çıkardığı yangını fark edemeyecek kadar kafası güzeldi.</Dialogue>
+        <Dialogue>Bir el bombası. Bu basit bir yangın değil, çok daha tehlikeli bir durum var.</Dialogue></Dialogue>
+        <Dialogue>Bir sis bombası. Muhtemelen izini kaybettirmek için yangını çıkarmadan önce kullandı.</Dialogue>
+        <Dialogue>Kırık bir şişe. Doğaçlama gibi duruyor ama yangını başlatmak için kullanılmış olabilir.</Dialogue>
+        <Dialogue>Bir gaz tüpü. Eğer patlasaydı, tüm bölge alev alırdı.</Dialogue>
+        <Dialogue>Bir yağ varili. Sızdırıyor... ve son derece yanıcı. Biri yangını büyütmek istemiş gibi.</Dialogue>
+        <Dialogue>Bir benzin bidonu. Benzin kokuyor... biri burayı yakmak istemiş belli ki.</Dialogue>
+        <Dialogue>Bir çorap mı? Pek önemli görünmüyor ama kokusu bile yangın çıkarmaya yeter.</Dialogue>
+        <Dialogue>Klasik. Biri yanan bir sigarayı çöpe atmış ve yangın başlamış.</Dialogue>
+        <Dialogue>Bir çorap mı? Pek önemli görünmüyor ama kokusu bile yangın çıkarmaya yeter.</Dialogue>
     </Evidence>
 
     <End>
-        <Text>~g~Durum Code 4.</Text>
+        <Text>~g~Durum Kod 4, olay kontrol altına alındı.</Text>
     </End>
     
 </BurningDumpster>

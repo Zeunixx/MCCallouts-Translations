@@ -1,20 +1,20 @@
 <CALLOUT>
     <CALLOUTMESSAGE>Ambulans saldırı altında</CALLOUTMESSAGE>
-    <TASK>Bir ambulans acil yardım talebinde bulundu, durumu kontrol edin.</TASK>
+    <TASK>Bir ambulans acil destek istedi, hemen olay yerine git.</TASK>
     <DIALOGUES>
-        <DIALOGUE>~y~Siz:~s~ Ne oldu?</DIALOGUE>
-        <DIALOGUE>~r~Paramedik:~s~ Hastaneye geri dönerken aniden önümüzü kestiler.</DIALOGUE>
-        <DIALOGUE>~r~Paramedik:~s~ Sonra da hiçbir sebep yokken bize saldırdılar!</DIALOGUE>
-        <DIALOGUE>~r~Paramedik:~s~ Hizmetiniz için teşekkür ederiz!</DIALOGUE>
-        <DIALOGUE>~r~Paramedik:~s~ İstasyona geri döneceğiz, iyi günler!</DIALOGUE>
+        <DIALOGUE>~y~Sen:~s~ Ne oldu burada?</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ Hastaneye geri dönüyorduk, bir anda önümüzü kestiler.</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ Sonra da hiçbir sebep yokken saldırdılar!</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ Yardımın için teşekkür ederiz memur bey!</DIALOGUE>
+        <DIALOGUE>~r~Paramedik:~s~ Biz istasyona geri dönüyoruz, iyi günler!</DIALOGUE>
     </DIALOGUES>
     <EXTRA>
-        <TEXT>Kavga etmeyi bırakmalarını söylemek için ~y~{Y}~s~ tuşuna basın!</TEXT>
-        <TEXT>Ne olduğunu öğrenmek için paramedikle konuşun.</TEXT>
+        <TEXT>Press ~y~{Y}~s~ tuşuna basarak kavgayı durdur!</TEXT>
+        <TEXT>Ne olduğunu öğrenmek için paramedikle konuş.</TEXT>
     </EXTRA>
     <WARN>
-        <TEXT>~y~Siz:~s~ Polis! Kavgayı bırakın ve geri çekilin!</TEXT>
-        <TEXT>~y~Siz:~s~ Herkes dursun! Burası polis!</TEXT>
+        <TEXT>~y~Sen:~s~ Polis! Kavgayı kesin ve geri çekilin!</TEXT>
+        <TEXT>~y~Sen:~s~ Herkes dursun! Polis var burada!</TEXT>
     </WARN>
-    <END>Ambulans saldırı altında çağrısı sona erdi.</END>
+    <END>Ambulans saldırı vakası sona erdi.</END>
 </CALLOUT>
