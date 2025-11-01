@@ -5,7 +5,7 @@
     </CamText>
 
     <D_Victim>
-        <Dialogue>Memur bey! Az önce soyuldum!</Dialogue>
+    <Dialogue>Memur bey! Az önce soyuldum!</Dialogue>
 	<Dialogue>Bankamatikten para çektim, tam cüzdanımı koyacakken biri geldi, kaptı gitti!</Dialogue>
 	<Dialogue>Boğuştuk, sonra kafama vurdu!</Dialogue>
 	<Dialogue>Maalesef o kişinin yüzünü hatırlayamıyorum...</Dialogue>
@@ -14,7 +14,7 @@
     </D_Victim>
 
     <D_Suspect>
-        <Dialogue>Ne istiyorsun be? Niye peşimdesin?</Dialogue>
+    <Dialogue>Ne istiyorsun be? Niye peşimdesin?</Dialogue>
 	<Dialogue>Kısa süre önce yaşanan bir soygunun tarifine uyuyorsun.</Dialogue>
 	<Dialogue>Ben mi hırsızım? Saçmalama, bu ne biçim laf!</Dialogue>
 	<Dialogue>Yanlış kişiyi bulmuşsun, ben bir şey yapmadım!</Dialogue>
