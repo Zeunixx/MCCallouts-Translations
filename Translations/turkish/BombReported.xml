@@ -1,65 +1,65 @@
 <BombReported>
 
     <General>
-        <Text>Bomba ihbarı</Text>
-        <Text>Olası bir bomba tehdidine karşı ~r~Kod 3~s~ koduyla arama yapın.</Text>
-        <Text>Vatandaşları tahliye etmek için {Y} tuşuna basın!</Text>
-        <Text>~y~Bölgede~s~ bombayı arayın.</Text>
-        <Text>İPUCU: Bomba uzmanını aramak için {Y} tuşuna basın.</Text>
-        <Text>Bomba bulunamadı, bölge güvenli.</TEXT>
-        <Text>Bomba etkisiz hale getirildi! Aferin!</TEXT>
+        <Text>Olası bomba ihbarı alındı</Text>
+        <Text>Olası bir bomba tehdidi araştırılıyor, ~r~Kod 3~s~.</Text>
+        <Text>Vatandaşları tahliye etmek için {Y} tuşuna bas!</Text>
+        <Text>Bombayı ~y~bölge~s~ içinde ara.</Text>
+        <Text>İPUCU: Bomba uzmanını çağırmak için {Y} tuşuna bas.</Text>
+        <Text>Bomba bulunamadı, bölge temiz.</Text>
+        <Text>Bomba etkisiz hale getirildi! Harika iş!</Text>
         <Text>~g~Yeşil~s~ kablo kesildi!</Text>
         <Text>~y~Sarı~s~ kablo kesildi!</Text>
         <Text>~b~Mavi~s~ kablo kesildi!</Text>
-        <Text>Siktir, yanlış kabloyu kestin! Koş, bomba patlayacak!</TEXT>
+        <Text>Lanet olsun, yanlış kabloyu kestin! Kaç, bomba patlayacak!</Text>
     </General>
 
     <Persons>
-        <Text>Siz</Text>
+        <Text>Sen</Text>
         <Text>Uzman</Text>
-        <Text>Polis</Text>
+        <Text>Memur</Text>
     </Persons>
 
     <Officer>
-        <Dialogue>Merhaba! Geldiğiniz için teşekkürler!</Dialogue>
+        <Dialogue>Selam! Geldiğin için teşekkürler!</Dialogue>
         <Dialogue>Büyük bir olayımız var! Olası bir bomba ihbarı geldi!</Dialogue>
-        <Dialogue>İhbarı çok ciddiye aldık ve bölgeyi kordon altına aldık.</Dialogue>
-        <Dialogue>Konuşmamız bitince, sahnedeki herkesi tahliye edin ve sonra bombayı arayın! Bol şans!</Dialogue>
+        <Dialogue>İhbarı çok ciddiye aldık ve alanı kapattık.</Dialogue>
+        <Dialogue>Konuşmamız bittiğinde, alandaki herkesi tahliye et, ardından bombayı ara! İyi şanslar!</Dialogue>
     </Officer>
 
     <Evacuate>
-        <Dialogue>Hey, lütfen hemen bölgeyi terk edin! Burada bir bomba olabilir!</Dialogue>
-        <Dialogue>Hey sen, burada bomba tehdidi var, güvenli bir mesafeye git!</Dialogue>
-        <Dialogue>Bu alanın derhal boşaltılması gerekiyor! Acele edin!</Dialogue>
+        <Dialogue>Hey! Lütfen hemen bölgeden uzaklaş! Burada bomba olabilir!</Dialogue>
+        <Dialogue>Hey sen, bomba tehdidimiz var, güvenli bir mesafeye git!</Dialogue>
+        <Dialogue>Bu alan hemen tahliye edilmeli! Acele et!</Dialogue>
         <Dialogue></Dialogue>
     </Evacuate>
 
     <SpecialistGeneral>
-        <Dialogue>Alo? Bombayı buldunuz mu?</Dialogue>
-        <Dialogue>Evet, sanırım. Tam önümde.</Dialogue>
-        <Dialogue>Pekala, düşüneyim. Üzerinde ilginç bir kontrol mekanizması var.</Dialogue>
-        <Dialogue>Hmm... tamam... lanet olsun... bu da ne...? Ah, buldum.</Dialogue>
-        <Dialogue>Sonra... hm... hayır olamaz... ah, tamam...</Dialogue>
-        <Dialogue>Harika, hâlâ hayattayım! Bomba etkisiz hale getirilmiş gibi görünüyor. Aferin ve teşekkürler!</Dialogue>
-        <Dialogue>Rica ederim, güle güle.</Dialogue>
+        <Dialogue>Alo? Bombayı buldun mu?</Dialogue>
+        <Dialogue>Evet, sanırım buldum. Tam önümde.</Dialogue>
+        <Dialogue>Tamam, bir düşüneyim. Bir tür gelişmiş kontrol paneli var.</Dialogue>
+        <Dialogue>Hmm... tamam... lanet olsun... bu da ne...? Ah, tamam buldum.</Dialogue>
+        <Dialogue>Sonra... hm... ah hayır... ah, tamam...</Dialogue>
+        <Dialogue>Harika, hâlâ hayattayım! Görünüşe göre bomba etkisiz hale getirildi. Harika iş, teşekkür ederim!</Dialogue>
+        <Dialogue>Rica ederim, görüşürüz.</Dialogue>
     </SpecialistGeneral>
 
     <SpecialistGYB>
-        <Dialogue>Önce yeşil kabloyu kesin.</Dialogue>
-        <Dialogue>Şimdi sarı kabloyu kesin.</Dialogue>
-        <Dialogue>Tamam, henüz patlamadıysa, kalan mavi kabloyu kesin.</Dialogue>
+        <Dialogue>Önce yeşil kabloyu kes.</Dialogue>
+        <Dialogue>Şimdi sarı kabloyu kes.</Dialogue>
+        <Dialogue>Tamam, eğer hâlâ patlamadıysa kalan mavi kabloyu kes.</Dialogue>
     </SpecialistGYB>
 
     <SpecialistBYG>
-        <Dialogue>Önce mavi kabloyu kesin.</Dialogue>
-        <Dialogue>Şimdi sarı kabloyu kesin.</Dialogue>
-        <Dialogue>Tamam, henüz patlamadıysa, kalan yeşil kabloyu kesin.</Dialogue>
+        <Dialogue>Önce mavi kabloyu kes.</Dialogue>
+        <Dialogue>Şimdi sarı kabloyu kes.</Dialogue>
+        <Dialogue>Tamam, eğer hâlâ patlamadıysa kalan yeşil kabloyu kes.</Dialogue>
     </SpecialistBYG>
 
     <SpecialistGBY>
-        <Dialogue>Önce yeşil kabloyu kesin.</Dialogue>
-        <Dialogue>Şimdi mavi kabloyu kesin.</Dialogue>
-        <Dialogue>Tamam, henüz patlamadıysa, kalan sarı kabloyu kesin.</Dialogue>
+        <Dialogue>Önce yeşil kabloyu kes.</Dialogue>
+        <Dialogue>Şimdi mavi kabloyu kes.</Dialogue>
+        <Dialogue>Tamam, eğer hâlâ patlamadıysa kalan sarı kabloyu kes.</Dialogue>
     </SpecialistGBY>
 
 </BombReported>
